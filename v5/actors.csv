@@ -78,3 +78,5 @@ HOP,Hoger Onderwijs Persbureau / HOP,MEDIA_OUTLET,higher_education_press,NL,T3,s
 VILLAMEDIA,Villamedia,MEDIA_OUTLET,journalism_trade_press,NL,T3,sector_reporting_node,high,S_VILLAMEDIA_CESTMOCRO_2024
 CVANDAAG,Cvandaag,MEDIA_OUTLET,christian_media,NL,T3,media_reporting_node,medium_high,S_CVANDAAG_BARTSCHUT_2017
 DUTCH_DONORS,Nederlandse donoren / subsidiegevers,DONOR_CLUSTER,funding_target_cluster,NL,T1,financial_leverage_target,medium_high,S_ELSC_2021;S_ELSC_PRESS_2021
+DUTCH_MEDIA_CLUSTER,Dutch media cluster,CLUSTER,media_cluster,NL,T5,v2_context_node,medium,S_ELSC_2021
+DUTCH_POLITICAL_CLUSTER,Dutch political cluster,CLUSTER,political_cluster,NL,T5,v2_context_node,medium,S_ELSC_2021

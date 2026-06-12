@@ -1,11 +1,5 @@
-# Archives
-v4.zip
-*.zip
-
-# Python cache
+# Only v5/ is the active dataset
 __pycache__/
 *.pyc
-
-# OS files
 .DS_Store
 Thumbs.db

@@ -1,3 +1,0 @@
-travel_id,traveler_id,organizer_id,destination,year,funding_source,registration_status,confidence,source_ids,notes
-TRV_STOFFER_ELNET_2024,CHRIS_STOFFER,ELNET,Israel,2024,ELNET,registered_official,high,S_TK_STOFFER_REIZEN,SGP MP
-TRV_STOFFER_CVI_2022,CHRIS_STOFFER,CVI,Israel,2022,CVI_partly_SGP,registered_official,high,S_TK_STOFFER_REIZEN,Partially funded by SGP foundation/fractie

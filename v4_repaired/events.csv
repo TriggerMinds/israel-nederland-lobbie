@@ -1,8 +1,0 @@
-event_id,name,event_type,organizer_id,date,location,scope,confidence,source_ids,notes
-EV_IAF_EU_SUMMIT_2025,IAF Europe Policy Summit,summit,IAF_EU,2025,,EU,high,S_SGP_IAF_2025,SGP reports participation
-EV_HU_CIDI_LECTURES_2024,HU collegereeks Holocaust met CIDI,lecture_series,HU,2024,Utrecht,NL,high,S_NOS_HU_CIDI_2024,Uitgesteld na controverses
-EV_CVI_WIERDDUK_PODCAST_2024,Podcast Wierd Duk over media bias Israël,podcast,CVI_MEDIA,2024-11-04,,NL,high,S_CVI_WIERD_DUK_2024,
-EV_ELNET_MISSION_2024,ELNET Israel solidarity visit,delegation,ELNET,2024,Israel,EU,high,S_TK_STOFFER_REIZEN,Chris Stoffer deelname
-EV_CVI_ISRAEL_TRIP_2022,Christenen voor Israël Israël-reis,study_trip,CVI,2022,Israel,NL,high,S_TK_STOFFER_REIZEN,Stoffer deelname deels betaald door SGP
-EV_NPORADIO1_LEON_2023,NPO Radio 1 podcast Leon de Winter,podcast,NPO_RADIO1,2023,,NL,high,S_NPORADIO1_LEON_2023,
-EV_IAF_NL_CAUCUS_2013,Oprichting parlementaire pro-Israël club / IIACF,caucus_formation,IAF,2013,Den Haag,NL,high,S_JONET_IIACF_2013,IIACF Netherlands caucus
