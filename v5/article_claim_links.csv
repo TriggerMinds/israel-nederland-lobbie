@@ -13,3 +13,8 @@ ACL_originator_ART_ELSC_2021_C7,ART_ELSC_2021,C7,ELSC,originator_publication,sam
 ACL_originator_ART_ELSC_PRESS_2021_C1,ART_ELSC_PRESS_2021,C1,ELSC,originator_publication,same_actor,,2021,high,Publisher ELSC is originator of claim C1
 ACL_originator_ART_ELSC_PRESS_2021_C5,ART_ELSC_PRESS_2021,C5,ELSC,originator_publication,same_actor,,2021,high,Publisher ELSC is originator of claim C5
 ACL_originator_ART_ELSC_PRESS_2021_C7,ART_ELSC_PRESS_2021,C7,ELSC,originator_publication,same_actor,,2021,high,Publisher ELSC is originator of claim C7
+ACL_NOS_CESTMOCRO_2023_C11,ART_NOS_CESTMOCRO_2023,C11,NOS,REPORTING,edge_from_graph,,2023,high,NOS reports CIDI legal complaint against CestMocro
+ACL_NOS_HU_CIDI_2024_C13,ART_NOS_HU_CIDI_2024,C13,NOS,REPORTING,edge_from_graph,,2024,high,NOS reports HU postponement and CIDI safety frame
+ACL_HOP_HU_2024_C13,ART_HOP_HU_POLITICI_2024,C13,HOP,REPORTING,edge_from_graph,,2024,high,HOP reports political reactions to HU postponement
+ACL_CIDI_PR_C4,ART_CIDI_CESTMOCRO_2023,C4,CIDI,FRAMING,same_actor,,2023,medium,CIDI press release uses safety/incitement frame; links to C4 safety frame claim
+ACL_TRF_IAF_2025_C2,ART_RIGHTSFORUM_IAF_2025,C2,TRF,COUNTER_DOCUMENTATION,same_actor,,2025,medium,TRF links IAF to broader terror-link/delegitimation campaign narrative
