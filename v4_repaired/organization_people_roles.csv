@@ -1,0 +1,11 @@
+relation_id,person_actor_id,organization_actor_id,role,start_date,end_date,confidence,source_ids,notes
+OR_E053,WIERD_DUK,TELEGRAAF,media_affiliation,,,high,S_CVI_WIERD_DUK_2024;S_NVD_WIERD_DUK_2026,Wierd Duk is Telegraaf reporter/commentator in platform descriptions
+OR_E056,LEON_DE_WINTER,EW,media_affiliation,,,high,S_EW_LEON,EW author profile for Leon de Winter
+OR_E057,ESTHER_VOET,NIW,editorial_role,,,high,S_NIW_REDACTIE,NIW head editor profile; former CIDI director/adjunct-director noted
+OR_E058,ESTHER_VOET,CIDI,former_role,,,high,S_NIW_REDACTIE,NIW profile states Voet was connected to CIDI as adjunct-director/director
+OR_E059,BART_VAN_DIJK,CIDI,employee_role,,,high,S_NIW_CIDI_DATA_2025,NIW article identifies Bart van Dijk as CIDI employee
+OR_E061,BART_SCHUT,NIW,media_affiliation,,,medium_high,S_CVANDAAG_BARTSCHUT_2017;S_NIW_CIDI_DATA_2025,Bart Schut writes for/with NIW in public articles
+OR_E062,FRITS_HUFFNAGEL,CASTRO,founder_role,,,high,S_CASTRO_OVER;S_CASTRO_SITE,Castro profile lists Huffnagel as founder and network/political communications actor
+OR_E063,STEFAN_DE_BRUIJN,CASTRO,founder_role,,,high,S_CASTRO_OVER,Castro profile lists De Bruijn as founder/managing partner
+OR_art_ART_NIW_CIDI_DATA_20,BART_VAN_DIJK,NIW,author_or_contributor,,,high,S_NIW_CIDI_DATA_2025,Author for article ART_NIW_CIDI_DATA_2025
+OR_art_ART_CVANDAAG_BARTSCH,BART_SCHUT,CVANDAAG,author_or_contributor,,,high,S_CVANDAAG_BARTSCHUT_2017,Author for article ART_CVANDAAG_BARTSCHUT_2017

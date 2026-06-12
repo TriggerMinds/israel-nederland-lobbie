@@ -1,0 +1,15 @@
+link_id,article_id,claim_id,source_actor_id,frame_type,citation_type,text_overlap_score,publication_date,confidence,notes
+ACL_originator_ART_NGOMONITOR_RESPO_C8,ART_NGOMONITOR_RESPONSE_NRC_2026,C8,NGO_MONITOR,originator_publication,same_actor,,2026,high,Publisher NGO_MONITOR is originator of claim C8
+ACL_originator_ART_NGOMONITOR_RESPO_C9,ART_NGOMONITOR_RESPONSE_NRC_2026,C9,NGO_MONITOR,originator_publication,same_actor,,2026,high,Publisher NGO_MONITOR is originator of claim C9
+ACL_originator_ART_NGOMONITOR_RESPO_C10,ART_NGOMONITOR_RESPONSE_NRC_2026,C10,NGO_MONITOR,originator_publication,same_actor,,2026,high,Publisher NGO_MONITOR is originator of claim C10
+ACL_originator_ART_CIDI_CESTMOCRO_2_C11,ART_CIDI_CESTMOCRO_2023,C11,CIDI,originator_publication,same_actor,,2023,high,Publisher CIDI is originator of claim C11
+ACL_originator_ART_RIGHTSFORUM_TELE_C3,ART_RIGHTSFORUM_TELEGRAAF_2020,C3,TRF,originator_publication,same_actor,,2020,high,Publisher TRF is originator of claim C3
+ACL_originator_ART_RIGHTSFORUM_IAF__C3,ART_RIGHTSFORUM_IAF_2025,C3,TRF,originator_publication,same_actor,,2025,high,Publisher TRF is originator of claim C3
+ACL_originator_ART_TRF_CHARACTER_20_C3,ART_TRF_CHARACTER_2019,C3,TRF,originator_publication,same_actor,,2019,high,Publisher TRF is originator of claim C3
+ACL_originator_ART_RIGHTSFORUM_FREE_C3,ART_RIGHTSFORUM_FREESPEECH_2021,C3,TRF,originator_publication,same_actor,,2021,high,Publisher TRF is originator of claim C3
+ACL_originator_ART_ELSC_2021_C1,ART_ELSC_2021,C1,ELSC,originator_publication,same_actor,,2021,high,Publisher ELSC is originator of claim C1
+ACL_originator_ART_ELSC_2021_C5,ART_ELSC_2021,C5,ELSC,originator_publication,same_actor,,2021,high,Publisher ELSC is originator of claim C5
+ACL_originator_ART_ELSC_2021_C7,ART_ELSC_2021,C7,ELSC,originator_publication,same_actor,,2021,high,Publisher ELSC is originator of claim C7
+ACL_originator_ART_ELSC_PRESS_2021_C1,ART_ELSC_PRESS_2021,C1,ELSC,originator_publication,same_actor,,2021,high,Publisher ELSC is originator of claim C1
+ACL_originator_ART_ELSC_PRESS_2021_C5,ART_ELSC_PRESS_2021,C5,ELSC,originator_publication,same_actor,,2021,high,Publisher ELSC is originator of claim C5
+ACL_originator_ART_ELSC_PRESS_2021_C7,ART_ELSC_PRESS_2021,C7,ELSC,originator_publication,same_actor,,2021,high,Publisher ELSC is originator of claim C7

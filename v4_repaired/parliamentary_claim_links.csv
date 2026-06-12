@@ -1,0 +1,9 @@
+link_id,parliamentary_item_id,claim_id,actor_id,link_type,publication_date,confidence,source_ids,notes
+PCL_PQ_RAJKOWSKI_NGO_2026,PQ_RAJKOWSKI_NGO_2026,C8,QUEENY_RAJKOWSKI,explicit_relation,2026,high,S_TK_NGOMONITOR_2026_VVD;S_TK_RAJKOWSKI_DETAIL_2026,NGO Monitor alleges Oxfam Novib / DRA terror links
+PCL_PQ_MARKUSZOWER_NGO_2026,PQ_MARKUSZOWER_NGO_2026,C8,GIDI_MARKUSZOWER,explicit_relation,2026,high,S_TK_NGOMONITOR_2026_MARKUSZOWER,NGO Monitor alleges Oxfam Novib / DRA terror links
+PCL_PQ_LAMMERS_NGO_2026,PQ_LAMMERS_NGO_2026,C8,ANNELOTTE_LAMMERS,explicit_relation,2026,high,S_TK_NGOMONITOR_2026_MARKUSZOWER,NGO Monitor alleges Oxfam Novib / DRA terror links
+PCL_GOV_RESPONSE_NGO_2026,GOV_RESPONSE_NGO_2026,C8,DUTCH_GOV,explicit_relation,2026,high,S_TK_NGOMONITOR_2026_VVD;S_TK_NGOMONITOR_2026_MARKUSZOWER,NGO Monitor alleges Oxfam Novib / DRA terror links
+PCL_GOV_DUEDILIGENCE_DRA_2026,GOV_DUEDILIGENCE_DRA_2026,C8,DUTCH_GOV,explicit_relation,2026,high,S_TK_NGOMONITOR_2026_VVD,NGO Monitor alleges Oxfam Novib / DRA terror links
+PCL_MOTIE_NGOMONITOR_OXFAM_2026_MOTIE,MOTIE_NGOMONITOR_OXFAM_2026_MOTIE,C8,TWEEDE_KAMER,explicit_relation,2026,high,S_TK_NGOMONITOR_2026_VVD,NGO Monitor alleges Oxfam Novib / DRA terror links
+PCL_PQ_PVV_ALMEZAN_2020,PQ_PVV_ALMEZAN_2020,C9,PVV,explicit_relation,2020,high,S_ELSC_JOODS_TELEGRAAF_ALMEZAN,NGO Monitor alleges Al Mezan PFLP links
+PCL_PQ_BBB_HU_2024,PQ_BBB_HU_2024,C13,BBB,explicit_relation,2024,high,S_HOP_HU_POLITICI_2024,HU CIDI collaboration safety claim

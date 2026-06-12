@@ -1,0 +1,2243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="label" for="node" attr.name="label" attr.type="string"/>
+  <key id="entity_kind" for="node" attr.name="entity_kind" attr.type="string"/>
+  <key id="actor_class" for="node" attr.name="actor_class" attr.type="string"/>
+  <key id="scope" for="node" attr.name="scope" attr.type="string"/>
+  <key id="sna_role" for="node" attr.name="sna_role" attr.type="string"/>
+  <key id="privacy_status" for="node" attr.name="privacy_status" attr.type="string"/>
+  <key id="confidence" for="node" attr.name="confidence" attr.type="string"/>
+  <key id="source_ids" for="node" attr.name="source_ids" attr.type="string"/>
+  <key id="edge_type" for="edge" attr.name="edge_type" attr.type="string"/>
+  <key id="relation_label" for="edge" attr.name="relation_label" attr.type="string"/>
+  <key id="evidence_status" for="edge" attr.name="evidence_status" attr.type="string"/>
+  <key id="edge_confidence" for="edge" attr.name="confidence" attr.type="string"/>
+  <key id="weight" for="edge" attr.name="weight" attr.type="double"/>
+  <key id="date_range" for="edge" attr.name="date_range" attr.type="string"/>
+  <key id="edge_source_ids" for="edge" attr.name="source_ids" attr.type="string"/>
+  <key id="risk_flags" for="edge" attr.name="risk_flags" attr.type="string"/>
+  <key id="notes" for="edge" attr.name="notes" attr.type="string"/>
+  <key id="epistemic_role" for="edge" attr.name="epistemic_role" attr.type="string"/>
+  <key id="adjudication_status" for="edge" attr.name="adjudication_status" attr.type="string"/>
+  <graph id="G" edgedefault="directed">
+    <node id="CIDI">
+      <data key="label">Centrum Informatie en Documentatie Israël</data>
+      <data key="entity_kind">organization</data>
+      <data key="actor_class">advocacy_lobby</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">primary_hub</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_ELSC_2021;S_CIDI_CESTMOCRO_2023;S_NOS_CESTMOCRO_2023</data>
+    </node>
+    <node id="LIKOED_NL">
+      <data key="label">Likoed Nederland</data>
+      <data key="entity_kind">organization</data>
+      <data key="actor_class">advocacy_lobby</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">campaign_initiator</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_LIKOED_THIEME_2015;S_JONET_NOORDHOFF_2019</data>
+    </node>
+    <node id="FJN">
+      <data key="label">Federatief Joods Nederland</data>
+      <data key="entity_kind">organization</data>
+      <data key="actor_class">advocacy_lobby</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">legal_public_pressure_actor</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">medium</data>
+      <data key="source_ids">S_ELSC_2021</data>
+    </node>
+    <node id="CVI">
+      <data key="label">Christenen voor Israël</data>
+      <data key="entity_kind">organization</data>
+      <data key="actor_class">religious_political_advocacy</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">grassroots_media_religious_hub</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_TK_STOFFER_REIZEN;S_CVI_WIERD_DUK_2024</data>
+    </node>
+    <node id="IAF">
+      <data key="label">Israel Allies Foundation</data>
+      <data key="entity_kind">organization</data>
+      <data key="actor_class">transnational_parliamentary_network</data>
+      <data key="scope">transnational</data>
+      <data key="sna_role">parliamentary_access_hub</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_IAF_MEMBERS;S_JONET_IIACF_2013</data>
+    </node>
+    <node id="IAF_EU">
+      <data key="label">Israel Allies Foundation Europe</data>
+      <data key="entity_kind">organization</data>
+      <data key="actor_class">transnational_parliamentary_network</data>
+      <data key="scope">EU</data>
+      <data key="sna_role">european_policy_summit_network</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_SGP_IAF_2025;S_RIGHTSFORUM_IAF_2025</data>
+    </node>
+    <node id="ELNET">
+      <data key="label">European Leadership Network / ELNET</data>
+      <data key="entity_kind">organization</data>
+      <data key="actor_class">transnational_lobby_network</data>
+      <data key="scope">EU</data>
+      <data key="sna_role">political_travel_policy_network</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_TK_STOFFER_REIZEN;S_ELNET_IMPACT</data>
+    </node>
+    <node id="NGO_MONITOR">
+      <data key="label">NGO Monitor</data>
+      <data key="entity_kind">organization</data>
+      <data key="actor_class">watchdog_advocacy</data>
+      <data key="scope">IL</data>
+      <data key="sna_role">dossier_supplier</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">high_contested</data>
+      <data key="source_ids">S_RIJK_NGOMONITOR_2025;S_TK_NGOMONITOR_2026_VVD;S_NGOMONITOR_RESPONSE_NRC_2026</data>
+    </node>
+    <node id="CASTRO">
+      <data key="label">Castro Communicatie en Lobby</data>
+      <data key="entity_kind">organization</data>
+      <data key="actor_class">communications_lobby_firm</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">political_media_network_node</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">medium</data>
+      <data key="source_ids">S_CASTRO_SITE;S_CASTRO_OVER</data>
+    </node>
+    <node id="ELSC">
+      <data key="label">European Legal Support Center</data>
+      <data key="entity_kind">organization</data>
+      <data key="actor_class">legal_monitoring</data>
+      <data key="scope">EU/NL</data>
+      <data key="sna_role">counter_documentation_hub</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_ELSC_2021</data>
+    </node>
+    <node id="TRF">
+      <data key="label">The Rights Forum</data>
+      <data key="entity_kind">organization</data>
+      <data key="actor_class">advocacy_research</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">counter_documentation_target</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_RIGHTSFORUM_TELEGRAAF_2020;S_RIGHTSFORUM_IAF_2025</data>
+    </node>
+    <node id="NPK">
+      <data key="label">Nederlands Palestina Komitee</data>
+      <data key="entity_kind">organization</data>
+      <data key="actor_class">pro_palestine_advocacy</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">target_advocacy_cluster</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">medium</data>
+      <data key="source_ids">S_ELSC_2021</data>
+    </node>
+    <node id="PAX">
+      <data key="label">PAX voor Vrede</data>
+      <data key="entity_kind">organization</data>
+      <data key="actor_class">peace_human_rights_ngo</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">target_or_referenced_ngo</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">medium</data>
+      <data key="source_ids">S_ELSC_2021</data>
+    </node>
+    <node id="OXFAM_NOVIB">
+      <data key="label">Oxfam Novib</data>
+      <data key="entity_kind">organization</data>
+      <data key="actor_class">humanitarian_development_ngo</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">target_in_NGO_Monitor_discourse</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_TK_NGOMONITOR_2026_VVD;S_TK_NGOMONITOR_2026_MARKUSZOWER</data>
+    </node>
+    <node id="DRA">
+      <data key="label">Dutch Relief Alliance</data>
+      <data key="entity_kind">organization</data>
+      <data key="actor_class">humanitarian_network</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">target_or_policy_subject</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_TK_NGOMONITOR_2026_VVD</data>
+    </node>
+    <node id="SAVE_CHILDREN">
+      <data key="label">Save the Children Nederland</data>
+      <data key="entity_kind">organization</data>
+      <data key="actor_class">humanitarian_ngo</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">target_of_advertising_complaint</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">medium</data>
+      <data key="source_ids">S_ELSC_2021</data>
+    </node>
+    <node id="DUTCH_GOV">
+      <data key="label">Nederlandse regering / ministeries</data>
+      <data key="entity_kind">institution</data>
+      <data key="actor_class">government</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">donor_policy_target</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_RIJK_NGOMONITOR_2025;S_TK_NGOMONITOR_2026_VVD</data>
+    </node>
+    <node id="TWEEDE_KAMER">
+      <data key="label">Tweede Kamer</data>
+      <data key="entity_kind">institution</data>
+      <data key="actor_class">parliament</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">decision_podium</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_IAF_MEMBERS;S_TK_STOFFER_REIZEN;S_TK_NGOMONITOR_2026_VVD</data>
+    </node>
+    <node id="HU">
+      <data key="label">Hogeschool Utrecht</data>
+      <data key="entity_kind">institution</data>
+      <data key="actor_class">higher_education</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">venue_education_case</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_NOS_HU_CIDI_2024;S_HOP_HU_POLITICI_2024</data>
+    </node>
+    <node id="NEW_NEIGHBOURS">
+      <data key="label">New Neighbours Utrecht</data>
+      <data key="entity_kind">group</data>
+      <data key="actor_class">local_activism</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">critic_of_CIDI_HU_collaboration</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">medium</data>
+      <data key="source_ids">S_NOS_HU_CIDI_2024;S_HOP_HU_POLITICI_2024</data>
+    </node>
+    <node id="CESTMOCRO">
+      <data key="label">CestMocro</data>
+      <data key="entity_kind">media_account</data>
+      <data key="actor_class">social_media</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">target_of_legal/political_pressure</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_CIDI_CESTMOCRO_2023;S_NOS_CESTMOCRO_2023;S_VILLAMEDIA_CESTMOCRO_2024</data>
+    </node>
+    <node id="THIEMEMEULENHOFF">
+      <data key="label">ThiemeMeulenhoff</data>
+      <data key="entity_kind">company</data>
+      <data key="actor_class">publisher</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">schoolbook_campaign_target</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_LIKOED_THIEME_2015</data>
+    </node>
+    <node id="NOORDHOFF">
+      <data key="label">Noordhoff</data>
+      <data key="entity_kind">company</data>
+      <data key="actor_class">publisher</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">schoolbook_campaign_target</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_JONET_NOORDHOFF_2019</data>
+    </node>
+    <node id="UNRWA">
+      <data key="label">UNRWA</data>
+      <data key="entity_kind">international_org</data>
+      <data key="actor_class">UN_agency</data>
+      <data key="scope">INT</data>
+      <data key="sna_role">policy_funding_target</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">medium</data>
+      <data key="source_ids">S_SGP_IAF_2025;S_RIJK_NGOMONITOR_2025</data>
+    </node>
+    <node id="PALESTINIAN_NGOS">
+      <data key="label">Palestijnse / pro-Palestijnse NGO-cluster</data>
+      <data key="entity_kind">cluster</data>
+      <data key="actor_class">target_cluster</data>
+      <data key="scope">NL/Palestine</data>
+      <data key="sna_role">target_cluster</data>
+      <data key="privacy_status">public_cluster</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_ELSC_2021</data>
+    </node>
+    <node id="TELEGRAAF">
+      <data key="label">De Telegraaf</data>
+      <data key="entity_kind">media</data>
+      <data key="actor_class">newspaper</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">media_amplification_node</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">medium_high</data>
+      <data key="source_ids">S_RIGHTSFORUM_TELEGRAAF_2020;S_TK_NGOMONITOR_2026_VVD</data>
+    </node>
+    <node id="EW">
+      <data key="label">EW / Elsevier Weekblad</data>
+      <data key="entity_kind">media</data>
+      <data key="actor_class">opinion_weekly</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">opinion_platform</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">medium</data>
+      <data key="source_ids">S_EW_LEON;S_ELSC_2021</data>
+    </node>
+    <node id="NIW">
+      <data key="label">Nieuw Israëlietisch Weekblad</data>
+      <data key="entity_kind">media</data>
+      <data key="actor_class">community_media</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">opinion_media_node</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_NIW_REDACTIE;S_NIW_CIDI_DATA_2025</data>
+    </node>
+    <node id="JONET">
+      <data key="label">Jonet.nl</data>
+      <data key="entity_kind">media</data>
+      <data key="actor_class">community_media</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">community_news_node</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">medium</data>
+      <data key="source_ids">S_JONET_NOORDHOFF_2019;S_JONET_IIACF_2013</data>
+    </node>
+    <node id="GEENSTIJL">
+      <data key="label">GeenStijl</data>
+      <data key="entity_kind">media</data>
+      <data key="actor_class">blog/opinion</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">amplification_node</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">medium</data>
+      <data key="source_ids">S_ELSC_2021;S_HOP_HU_POLITICI_2024</data>
+    </node>
+    <node id="DDS">
+      <data key="label">De Dagelijkse Standaard</data>
+      <data key="entity_kind">media</data>
+      <data key="actor_class">blog/opinion</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">amplification_node</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">medium_low</data>
+      <data key="source_ids">S_ELSC_2021</data>
+    </node>
+    <node id="TPO">
+      <data key="label">ThePostOnline</data>
+      <data key="entity_kind">media</data>
+      <data key="actor_class">blog/opinion</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">amplification_node</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">medium_low</data>
+      <data key="source_ids">S_ELSC_2021</data>
+    </node>
+    <node id="OPINIEZ">
+      <data key="label">OpinieZ</data>
+      <data key="entity_kind">media</data>
+      <data key="actor_class">opinion_platform</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">amplification_node</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">medium_low</data>
+      <data key="source_ids">S_ELSC_2021</data>
+    </node>
+    <node id="NOS">
+      <data key="label">NOS</data>
+      <data key="entity_kind">media</data>
+      <data key="actor_class">public_broadcaster_news</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">mainstream_reporting_node</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_NOS_HU_CIDI_2024;S_NOS_CESTMOCRO_2023</data>
+    </node>
+    <node id="NIEUWS_VD_DAG">
+      <data key="label">Nieuws van de Dag</data>
+      <data key="entity_kind">media</data>
+      <data key="actor_class">broadcast/platform</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">commentary_platform</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">medium</data>
+      <data key="source_ids">S_NVD_WIERD_DUK_2026</data>
+    </node>
+    <node id="CVI_MEDIA">
+      <data key="label">Christenen voor Israël Media</data>
+      <data key="entity_kind">media</data>
+      <data key="actor_class">podcast/video_platform</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">religious_advocacy_media_platform</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">medium</data>
+      <data key="source_ids">S_CVI_WIERD_DUK_2024</data>
+    </node>
+    <node id="SGP">
+      <data key="label">SGP</data>
+      <data key="entity_kind">political_party</data>
+      <data key="actor_class">party</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">parliamentary_advocacy_alignment</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_IAF_MEMBERS;S_JONET_IIACF_2013;S_SGP_IAF_2025;S_TK_STOFFER_REIZEN</data>
+    </node>
+    <node id="CU">
+      <data key="label">ChristenUnie</data>
+      <data key="entity_kind">political_party</data>
+      <data key="actor_class">party</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">parliamentary_advocacy_alignment</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_JONET_IIACF_2013;S_RIGHTSFORUM_IAF_2025</data>
+    </node>
+    <node id="VVD">
+      <data key="label">VVD</data>
+      <data key="entity_kind">political_party</data>
+      <data key="actor_class">party</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">parliamentary_enabler_or_question_actor</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_TK_NGOMONITOR_2026_VVD;S_HOP_HU_POLITICI_2024</data>
+    </node>
+    <node id="BBB">
+      <data key="label">BBB</data>
+      <data key="entity_kind">political_party</data>
+      <data key="actor_class">party</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">parliamentary_public_pressure_actor</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_VILLAMEDIA_CESTMOCRO_2024;S_HOP_HU_POLITICI_2024</data>
+    </node>
+    <node id="PVV">
+      <data key="label">PVV</data>
+      <data key="entity_kind">political_party</data>
+      <data key="actor_class">party</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">parliamentary_enabler_or_question_actor</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">medium</data>
+      <data key="source_ids">S_TK_NGOMONITOR_2026_MARKUSZOWER</data>
+    </node>
+    <node id="JA21">
+      <data key="label">JA21</data>
+      <data key="entity_kind">political_party</data>
+      <data key="actor_class">party</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">ideological_alignment_node</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">low_medium</data>
+      <data key="source_ids">S_ELSC_2021</data>
+    </node>
+    <node id="NSC">
+      <data key="label">Nieuw Sociaal Contract</data>
+      <data key="entity_kind">political_party</data>
+      <data key="actor_class">party</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">public_pressure_case_HU</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">medium</data>
+      <data key="source_ids">S_HOP_HU_POLITICI_2024</data>
+    </node>
+    <node id="CHRIS_STOFFER">
+      <data key="label">Chris Stoffer</data>
+      <data key="entity_kind">person</data>
+      <data key="actor_class">politician_SGP</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">IAF_NL_caucus_chair_travel_node</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_IAF_MEMBERS;S_TK_STOFFER_REIZEN;S_SGP_IAF_2025</data>
+    </node>
+    <node id="KEES_VD_STAAIJ">
+      <data key="label">Kees van der Staaij</data>
+      <data key="entity_kind">person</data>
+      <data key="actor_class">former_politician_SGP</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">historical_IAF_CU_SGP_node</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">medium_high</data>
+      <data key="source_ids">S_JONET_IIACF_2013;S_RIGHTSFORUM_IAF_2025</data>
+    </node>
+    <node id="JOEL_VOORDEWIND">
+      <data key="label">Joël Voordewind</data>
+      <data key="entity_kind">person</data>
+      <data key="actor_class">former_politician_CU</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">historical_IAF_CU_SGP_node</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">medium_high</data>
+      <data key="source_ids">S_JONET_IIACF_2013;S_RIGHTSFORUM_IAF_2025</data>
+    </node>
+    <node id="BERTJAN_RUISSEN">
+      <data key="label">Bert-Jan Ruissen</data>
+      <data key="entity_kind">person</data>
+      <data key="actor_class">politician_SGP_MEP</data>
+      <data key="scope">EU/NL</data>
+      <data key="sna_role">IAF_EU_caucus_node</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">medium_high</data>
+      <data key="source_ids">S_IAF_MEMBERS;S_RIGHTSFORUM_IAF_2025</data>
+    </node>
+    <node id="DON_CEDER">
+      <data key="label">Don Ceder</data>
+      <data key="entity_kind">person</data>
+      <data key="actor_class">politician_CU</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">named_in_IAF_related_reporting</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">medium</data>
+      <data key="source_ids">S_RIGHTSFORUM_IAF_2025</data>
+    </node>
+    <node id="DIEDERIK_VAN_DIJK">
+      <data key="label">Diederik van Dijk</data>
+      <data key="entity_kind">person</data>
+      <data key="actor_class">politician_SGP</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">schoolbook_UNRWA_question_actor</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">medium</data>
+      <data key="source_ids">S_SGP_IAF_2025</data>
+    </node>
+    <node id="DILAN_YESILGOZ">
+      <data key="label">Dilan Yeşilgöz</data>
+      <data key="entity_kind">person</data>
+      <data key="actor_class">politician_VVD</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">public_pressure_case_HU</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_HOP_HU_POLITICI_2024</data>
+    </node>
+    <node id="CAROLINE_VDP">
+      <data key="label">Caroline van der Plas</data>
+      <data key="entity_kind">person</data>
+      <data key="actor_class">politician_BBB</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">public_pressure_CestMocro_HU</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_VILLAMEDIA_CESTMOCRO_2024;S_HOP_HU_POLITICI_2024</data>
+    </node>
+    <node id="PIETER_OMTZIGT">
+      <data key="label">Pieter Omtzigt</data>
+      <data key="entity_kind">person</data>
+      <data key="actor_class">politician_NSC</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">public_pressure_case_HU</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">medium</data>
+      <data key="source_ids">S_HOP_HU_POLITICI_2024</data>
+    </node>
+    <node id="QUEENY_RAJKOWSKI">
+      <data key="label">Queeny Rajkowski</data>
+      <data key="entity_kind">person</data>
+      <data key="actor_class">politician_VVD</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">question_actor_NGO_Monitor_related</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_TK_NGOMONITOR_2026_VVD;S_TK_RAJKOWSKI_DETAIL_2026</data>
+    </node>
+    <node id="QUEEN_MAXIMA">
+      <data key="label">Koningin Máxima</data>
+      <data key="entity_kind">person</data>
+      <data key="actor_class">public_figure_royal</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">referenced_in_Oxfam_motion_context</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">medium</data>
+      <data key="source_ids">S_TK_NGOMONITOR_2026_VVD</data>
+    </node>
+    <node id="GIDI_MARKUSZOWER">
+      <data key="label">Gidi Markuszower</data>
+      <data key="entity_kind">person</data>
+      <data key="actor_class">politician_group_Markuszower/PVV_background</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">question_actor_NGO_Monitor_related</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_TK_NGOMONITOR_2026_MARKUSZOWER</data>
+    </node>
+    <node id="ANNELOTTE_LAMMERS">
+      <data key="label">Annelotte Lammers</data>
+      <data key="entity_kind">person</data>
+      <data key="actor_class">politician_group_Markuszower</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">question_actor_NGO_Monitor_related</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_TK_NGOMONITOR_2026_MARKUSZOWER</data>
+    </node>
+    <node id="NAOMI_MESTRUM">
+      <data key="label">Naomi Mestrum</data>
+      <data key="entity_kind">person</data>
+      <data key="actor_class">CIDI_director</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">CIDI_public_spokesperson</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_NOS_HU_CIDI_2024</data>
+    </node>
+    <node id="RONNY_NAFTANIEL">
+      <data key="label">Ronny Naftaniel</data>
+      <data key="entity_kind">person</data>
+      <data key="actor_class">former_CIDI_director</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">historical_CIDI_person</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">medium</data>
+      <data key="source_ids">S_ELSC_2021</data>
+    </node>
+    <node id="FRITS_HUFFNAGEL">
+      <data key="label">Frits Huffnagel</data>
+      <data key="entity_kind">person</data>
+      <data key="actor_class">communications_lobby_public_figure</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">Castro_founder_network_node</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_CASTRO_OVER;S_CASTRO_SITE</data>
+    </node>
+    <node id="STEFAN_DE_BRUIJN">
+      <data key="label">Stefan de Bruijn</data>
+      <data key="entity_kind">person</data>
+      <data key="actor_class">communications_lobby_actor</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">Castro_founder_network_node</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_CASTRO_OVER</data>
+    </node>
+    <node id="WIERD_DUK">
+      <data key="label">Wierd Duk</data>
+      <data key="entity_kind">person</data>
+      <data key="actor_class">journalist_opiniemaker</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">media_commentary_amplifier</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_CVI_WIERD_DUK_2024;S_NVD_WIERD_DUK_2026</data>
+    </node>
+    <node id="LEON_DE_WINTER">
+      <data key="label">Leon de Winter</data>
+      <data key="entity_kind">person</data>
+      <data key="actor_class">writer_columnist</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">public_commentary_amplifier</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">medium_high</data>
+      <data key="source_ids">S_NPORADIO1_LEON_2023;S_EW_LEON</data>
+    </node>
+    <node id="ESTHER_VOET">
+      <data key="label">Esther Voet</data>
+      <data key="entity_kind">person</data>
+      <data key="actor_class">journalist_editor_former_CIDI</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">media_CIDI_bridge</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_NIW_REDACTIE;S_NIW_CIDI_DATA_2025</data>
+    </node>
+    <node id="BART_SCHUT">
+      <data key="label">Bart Schut</data>
+      <data key="entity_kind">person</data>
+      <data key="actor_class">journalist_opiniemaker</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">media_commentary_amplifier</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">medium_high</data>
+      <data key="source_ids">S_CVANDAAG_BARTSCHUT_2017;S_NIW_CIDI_DATA_2025</data>
+    </node>
+    <node id="BART_VAN_DIJK">
+      <data key="label">Bart van Dijk</data>
+      <data key="entity_kind">person</data>
+      <data key="actor_class">CIDI_employee</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">CIDI_data_to_media_bridge</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">medium</data>
+      <data key="source_ids">S_NIW_CIDI_DATA_2025</data>
+    </node>
+    <node id="SCHOOLBOOK_POLICY">
+      <data key="label">Schoolbook policy / quality criteria</data>
+      <data key="entity_kind">concept</data>
+      <data key="actor_class">policy_topic</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">policy_target</data>
+      <data key="privacy_status">abstract</data>
+      <data key="confidence">medium</data>
+      <data key="source_ids">S_JONET_NOORDHOFF_2019</data>
+    </node>
+    <node id="DUTCH_MEDIA_CLUSTER">
+      <data key="label">Dutch media cluster</data>
+      <data key="entity_kind">cluster</data>
+      <data key="actor_class">media_cluster</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">aggregate_node</data>
+      <data key="privacy_status">abstract</data>
+      <data key="confidence">medium</data>
+      <data key="source_ids">S_ELSC_2021</data>
+    </node>
+    <node id="DUTCH_POLITICAL_CLUSTER">
+      <data key="label">Dutch political cluster</data>
+      <data key="entity_kind">cluster</data>
+      <data key="actor_class">political_cluster</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">aggregate_node</data>
+      <data key="privacy_status">abstract</data>
+      <data key="confidence">medium</data>
+      <data key="source_ids">S_ELSC_2021</data>
+    </node>
+    <node id="NRC">
+      <data key="label">NRC</data>
+      <data key="entity_kind">media</data>
+      <data key="actor_class">newspaper</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">investigative_reporting_node</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">medium</data>
+      <data key="source_ids">S_NGOMONITOR_RESPONSE_NRC_2026</data>
+    </node>
+    <node id="NPO_RADIO1">
+      <data key="label">NPO Radio 1</data>
+      <data key="entity_kind">media</data>
+      <data key="actor_class">public_radio</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">broadcast_platform</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_NPORADIO1_LEON_2023</data>
+    </node>
+    <node id="ANTIZIONISM_FRAME">
+      <data key="label">Antizionism-as-antisemitism frame</data>
+      <data key="entity_kind">concept</data>
+      <data key="actor_class">frame</data>
+      <data key="scope">NL/transnational</data>
+      <data key="sna_role">discourse_frame</data>
+      <data key="privacy_status">abstract</data>
+      <data key="confidence">medium</data>
+      <data key="source_ids">S_ELSC_2021;S_CVANDAAG_BARTSCHUT_2017</data>
+    </node>
+    <node id="SMEAR_CAMPAIGN">
+      <data key="label">Smear campaign / lastercampagne</data>
+      <data key="entity_kind">concept</data>
+      <data key="actor_class">rhetorical_strategy</data>
+      <data key="scope">NL/transnational</data>
+      <data key="sna_role">delegitimation_strategy</data>
+      <data key="privacy_status">abstract</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_ELSC_2021;S_ELSC_PRESS_2021</data>
+    </node>
+    <node id="CHARACTER_ASSASSINATION">
+      <data key="label">Karaktermoord / personal delegitimation</data>
+      <data key="entity_kind">concept</data>
+      <data key="actor_class">rhetorical_strategy</data>
+      <data key="scope">NL/transnational</data>
+      <data key="sna_role">delegitimation_strategy</data>
+      <data key="privacy_status">abstract</data>
+      <data key="confidence">medium_high</data>
+      <data key="source_ids">S_TRF_CHARACTER_2019</data>
+    </node>
+    <node id="SAFETY_FRAME">
+      <data key="label">Safety / unsafe Jewish community frame</data>
+      <data key="entity_kind">concept</data>
+      <data key="actor_class">rhetorical_strategy</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">venue_debate_suppression_frame</data>
+      <data key="privacy_status">abstract</data>
+      <data key="confidence">medium_high</data>
+      <data key="source_ids">S_ELSC_2021;S_NOS_HU_CIDI_2024</data>
+    </node>
+    <node id="DEFUNDING_PRESSURE_FRAME">
+      <data key="label">Subsidie- en fondsendruk</data>
+      <data key="entity_kind">concept</data>
+      <data key="actor_class">rhetorical_strategy</data>
+      <data key="scope">NL/transnational</data>
+      <data key="sna_role">financial_leverage_strategy</data>
+      <data key="privacy_status">abstract</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_ELSC_2021;S_ELSC_PRESS_2021</data>
+    </node>
+    <node id="TERROR_LINK_FRAME">
+      <data key="label">Terror-link allegation frame</data>
+      <data key="entity_kind">concept</data>
+      <data key="actor_class">rhetorical_strategy</data>
+      <data key="scope">NL/transnational</data>
+      <data key="sna_role">security_delegitimation_strategy</data>
+      <data key="privacy_status">abstract</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_ELSC_2021;S_TK_NGOMONITOR_2026_VVD</data>
+    </node>
+    <node id="CHILLING_EFFECT">
+      <data key="label">Chilling effect / zelfcensuur</data>
+      <data key="entity_kind">concept</data>
+      <data key="actor_class">impact_mechanism</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">suppression_effect</data>
+      <data key="privacy_status">abstract</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_ELSC_2021;S_ELSC_PRESS_2021</data>
+    </node>
+    <node id="MEDIA_VISIBILITY">
+      <data key="label">Media visibility / earned media presence</data>
+      <data key="entity_kind">concept</data>
+      <data key="actor_class">media_metric</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">influence_proxy</data>
+      <data key="privacy_status">abstract</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_CIDI_ACTIVITY_2024</data>
+    </node>
+    <node id="DUTCH_FOREIGN_POLICY_CONTEXT">
+      <data key="label">Dutch foreign-policy context on Israel-Palestine</data>
+      <data key="entity_kind">concept</data>
+      <data key="actor_class">policy_context</data>
+      <data key="scope">NL/EU</data>
+      <data key="sna_role">structural_context</data>
+      <data key="privacy_status">abstract</data>
+      <data key="confidence">medium_high</data>
+      <data key="source_ids">S_MALCONTENT_2022</data>
+    </node>
+    <node id="JOODS_NL">
+      <data key="label">Joods.nl</data>
+      <data key="entity_kind">media</data>
+      <data key="actor_class">community_media</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">media_amplification_node</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">medium_high</data>
+      <data key="source_ids">S_ELSC_JOODS_TELEGRAAF_ALMEZAN</data>
+    </node>
+    <node id="MSA_ISRAEL">
+      <data key="label">Israeli Ministry of Strategic Affairs and Public Diplomacy</data>
+      <data key="entity_kind">government_actor</data>
+      <data key="actor_class">state_public_diplomacy</data>
+      <data key="scope">IL/transnational</data>
+      <data key="sna_role">transnational_campaign_source</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">medium</data>
+      <data key="source_ids">S_PCHR_MSA_2020;S_ELSC_2021</data>
+    </node>
+    <node id="ECI">
+      <data key="label">European Coalition for Israel</data>
+      <data key="entity_kind">organization</data>
+      <data key="actor_class">eu_advocacy_lobby</data>
+      <data key="scope">EU/transnational</data>
+      <data key="sna_role">eu_political_advocacy_node</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">medium</data>
+      <data key="source_ids">S_ECI_LOBBYFACTS</data>
+    </node>
+    <node id="JAN_TERVOORT">
+      <data key="label">Jan Tervoort</data>
+      <data key="entity_kind">person</data>
+      <data key="actor_class">historian_writer</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">named_target_or_case_actor</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">medium</data>
+      <data key="source_ids">S_TRF_CHARACTER_2019</data>
+    </node>
+    <node id="UAWC">
+      <data key="label">Union of Agricultural Work Committees</data>
+      <data key="entity_kind">organization</data>
+      <data key="actor_class">palestinian_ngo</data>
+      <data key="scope">Palestine/NL funding context</data>
+      <data key="sna_role">defunding_case_target</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">medium_high</data>
+      <data key="source_ids">S_RIGHTSFORUM_FREESPEECH_2021;S_ELSC_2021</data>
+    </node>
+    <node id="AL_MEZAN">
+      <data key="label">Al Mezan Center for Human Rights</data>
+      <data key="entity_kind">organization</data>
+      <data key="actor_class">palestinian_human_rights_ngo</data>
+      <data key="scope">Palestine/NL funding context</data>
+      <data key="sna_role">terror_link_claim_target</data>
+      <data key="privacy_status">public</data>
+      <data key="confidence">medium_high</data>
+      <data key="source_ids">S_ELSC_JOODS_TELEGRAAF_ALMEZAN</data>
+    </node>
+    <node id="DUTCH_DONORS">
+      <data key="label">Dutch donors / subsidy providers</data>
+      <data key="entity_kind">cluster</data>
+      <data key="actor_class">donor_cluster</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">financial_leverage_target</data>
+      <data key="privacy_status">abstract</data>
+      <data key="confidence">medium_high</data>
+      <data key="source_ids">S_ELSC_2021;S_ELSC_PRESS_2021</data>
+    </node>
+    <node id="NETHERLANDS_OFFICE">
+      <data key="label">Netherlands office / Dutch organizational footprint</data>
+      <data key="entity_kind">concept</data>
+      <data key="actor_class">organizational_footprint</data>
+      <data key="scope">NL</data>
+      <data key="sna_role">location_node</data>
+      <data key="privacy_status">abstract</data>
+      <data key="confidence">high</data>
+      <data key="source_ids">S_IAF_EU_NL_OFFICE</data>
+    </node>
+    <node id="EU_POLITICAL_LEADERS">
+      <data key="label">MEPs and European political leaders</data>
+      <data key="entity_kind">cluster</data>
+      <data key="actor_class">political_cluster</data>
+      <data key="scope">EU</data>
+      <data key="sna_role">advocacy_target_cluster</data>
+      <data key="privacy_status">abstract</data>
+      <data key="confidence">medium</data>
+      <data key="source_ids">S_ECI_LOBBYFACTS</data>
+    </node>
+    <edge id="e0" source="ELSC" target="CIDI">
+      <data key="edge_type">COUNTER_DOCUMENTATION</data>
+      <data key="relation_label">ELSC identifies CIDI among Dutch Israel-advocacy actors in suppression incidents</data>
+      <data key="evidence_status">source_claim</data>
+      <data key="edge_confidence">medium</data>
+      <data key="weight">4</data>
+      <data key="date_range">2015-2020</data>
+      <data key="edge_source_ids">S_ELSC_2021</data>
+      <data key="risk_flags">contested_claim</data>
+      <data key="notes">Use as ELSC claim, not court finding</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e1" source="ELSC" target="NGO_MONITOR">
+      <data key="edge_type">COUNTER_DOCUMENTATION</data>
+      <data key="relation_label">ELSC maps external Israeli-source disinformation/dossier amplification pattern</data>
+      <data key="evidence_status">source_claim</data>
+      <data key="edge_confidence">medium</data>
+      <data key="weight">4</data>
+      <data key="date_range">2015-2020</data>
+      <data key="edge_source_ids">S_ELSC_2021</data>
+      <data key="risk_flags">contested_claim</data>
+      <data key="notes">NGO Monitor contests such characterisations</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e2" source="ELSC" target="TELEGRAAF">
+      <data key="edge_type">COUNTER_DOCUMENTATION</data>
+      <data key="relation_label">ELSC classifies right-wing media outlets as enabling actors/amplifiers</data>
+      <data key="evidence_status">source_claim</data>
+      <data key="edge_confidence">medium</data>
+      <data key="weight">3</data>
+      <data key="date_range">2015-2020</data>
+      <data key="edge_source_ids">S_ELSC_2021</data>
+      <data key="risk_flags">media_generalization</data>
+      <data key="notes">Publication-specific edges required for stronger claim</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e3" source="ELSC" target="EW">
+      <data key="edge_type">COUNTER_DOCUMENTATION</data>
+      <data key="relation_label">ELSC classifies conservative/mainstream media as enabling actors in some incidents</data>
+      <data key="evidence_status">source_claim</data>
+      <data key="edge_confidence">medium</data>
+      <data key="weight">3</data>
+      <data key="date_range">2015-2020</data>
+      <data key="edge_source_ids">S_ELSC_2021</data>
+      <data key="risk_flags">media_generalization</data>
+      <data key="notes">Use with care</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e4" source="ELSC" target="GEENSTIJL">
+      <data key="edge_type">COUNTER_DOCUMENTATION</data>
+      <data key="relation_label">ELSC enabling actor category for hostile media amplification</data>
+      <data key="evidence_status">source_claim</data>
+      <data key="edge_confidence">medium</data>
+      <data key="weight">3</data>
+      <data key="date_range">2015-2020</data>
+      <data key="edge_source_ids">S_ELSC_2021</data>
+      <data key="risk_flags">media_generalization</data>
+      <data key="notes">Use with care</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e5" source="ELSC" target="DDS">
+      <data key="edge_type">COUNTER_DOCUMENTATION</data>
+      <data key="relation_label">ELSC enabling actor category for hostile media amplification</data>
+      <data key="evidence_status">source_claim</data>
+      <data key="edge_confidence">medium_low</data>
+      <data key="weight">2</data>
+      <data key="date_range">2015-2020</data>
+      <data key="edge_source_ids">S_ELSC_2021</data>
+      <data key="risk_flags">media_generalization</data>
+      <data key="notes">Use with care</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e6" source="ELSC" target="TPO">
+      <data key="edge_type">COUNTER_DOCUMENTATION</data>
+      <data key="relation_label">ELSC enabling actor category for hostile media amplification</data>
+      <data key="evidence_status">source_claim</data>
+      <data key="edge_confidence">medium_low</data>
+      <data key="weight">2</data>
+      <data key="date_range">2015-2020</data>
+      <data key="edge_source_ids">S_ELSC_2021</data>
+      <data key="risk_flags">media_generalization</data>
+      <data key="notes">Use with care</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e7" source="ELSC" target="OPINIEZ">
+      <data key="edge_type">COUNTER_DOCUMENTATION</data>
+      <data key="relation_label">ELSC enabling actor category for hostile media amplification</data>
+      <data key="evidence_status">source_claim</data>
+      <data key="edge_confidence">medium_low</data>
+      <data key="weight">2</data>
+      <data key="date_range">2015-2020</data>
+      <data key="edge_source_ids">S_ELSC_2021</data>
+      <data key="risk_flags">media_generalization</data>
+      <data key="notes">Use with care</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e8" source="ELSC" target="PALESTINIAN_NGOS">
+      <data key="edge_type">MONITORING</data>
+      <data key="relation_label">Documents 76 incidents affecting Palestinian-rights advocacy</data>
+      <data key="evidence_status">documented_by_source</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">5</data>
+      <data key="date_range">2015-2020</data>
+      <data key="edge_source_ids">S_ELSC_2021</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Backbone target cluster</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e9" source="CIDI" target="CESTMOCRO">
+      <data key="edge_type">LEGAL_COMPLAINT</data>
+      <data key="relation_label">CIDI filed complaint for alleged incitement to hatred/violence against Jews</data>
+      <data key="evidence_status">verified_public_action</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">5</data>
+      <data key="date_range">2023</data>
+      <data key="edge_source_ids">S_CIDI_CESTMOCRO_2023;S_NOS_CESTMOCRO_2023</data>
+      <data key="risk_flags">legal_claim</data>
+      <data key="notes">Describes complaint, not judicial finding</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e10" source="CIDI" target="DUTCH_GOV">
+      <data key="edge_type">POLITICAL_PRESSURE</data>
+      <data key="relation_label">CIDI asked cabinet to take a position against CestMocro-related incitement</data>
+      <data key="evidence_status">verified_public_action</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">4</data>
+      <data key="date_range">2023</data>
+      <data key="edge_source_ids">S_CIDI_CESTMOCRO_2023</data>
+      <data key="risk_flags">political_pressure</data>
+      <data key="notes">Primary source CIDI</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e11" source="BBB" target="CESTMOCRO">
+      <data key="edge_type">PLATFORM_RESTRICTION_ARGUMENT</data>
+      <data key="relation_label">BBB/Van der Plas suggested possible prohibition in public debate</data>
+      <data key="evidence_status">reported_public_statement</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">4</data>
+      <data key="date_range">2024</data>
+      <data key="edge_source_ids">S_VILLAMEDIA_CESTMOCRO_2024</data>
+      <data key="risk_flags">speech_restriction</data>
+      <data key="notes">Freedom-of-expression sensitive</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e12" source="CAROLINE_VDP" target="CESTMOCRO">
+      <data key="edge_type">PLATFORM_RESTRICTION_ARGUMENT</data>
+      <data key="relation_label">Van der Plas suggested CestMocro could be banned</data>
+      <data key="evidence_status">reported_public_statement</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">4</data>
+      <data key="date_range">2024</data>
+      <data key="edge_source_ids">S_VILLAMEDIA_CESTMOCRO_2024</data>
+      <data key="risk_flags">speech_restriction</data>
+      <data key="notes">Reported by Villamedia</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e13" source="LIKOED_NL" target="THIEMEMEULENHOFF">
+      <data key="edge_type">CAMPAIGN_PRESSURE</data>
+      <data key="relation_label">Schoolbook criticism framed content as antisemitic/anti-Israel errors</data>
+      <data key="evidence_status">verified_public_action</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">5</data>
+      <data key="date_range">2015</data>
+      <data key="edge_source_ids">S_LIKOED_THIEME_2015</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Primary Likoed publication</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e14" source="LIKOED_NL" target="NOORDHOFF">
+      <data key="edge_type">CAMPAIGN_PRESSURE</data>
+      <data key="relation_label">Schoolbook criticism over Jeruzalem/Jewish history content</data>
+      <data key="evidence_status">reported_public_action</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">5</data>
+      <data key="date_range">2019</data>
+      <data key="edge_source_ids">S_JONET_NOORDHOFF_2019</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Reported public campaign</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e15" source="CIDI" target="SCHOOLBOOK_POLICY">
+      <data key="edge_type">POLICY_ADVOCACY</data>
+      <data key="relation_label">CIDI requested guidelines for Israel/Jewish representation in schoolbooks</data>
+      <data key="evidence_status">reported_public_action</data>
+      <data key="edge_confidence">medium_high</data>
+      <data key="weight">3</data>
+      <data key="date_range">pre-2019</data>
+      <data key="edge_source_ids">S_JONET_NOORDHOFF_2019</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Referenced in Jonet report</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e16" source="IAF" target="TWEEDE_KAMER">
+      <data key="edge_type">PARLIAMENTARY_ACCESS</data>
+      <data key="relation_label">IAF lists Netherlands caucus in global network</data>
+      <data key="evidence_status">self_disclosed</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">5</data>
+      <data key="date_range">current</data>
+      <data key="edge_source_ids">S_IAF_MEMBERS</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Official IAF network page</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e17" source="IAF" target="CHRIS_STOFFER">
+      <data key="edge_type">PARLIAMENTARY_ACCESS</data>
+      <data key="relation_label">IAF lists Chris Stoffer as Netherlands caucus chair</data>
+      <data key="evidence_status">self_disclosed</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">5</data>
+      <data key="date_range">current</data>
+      <data key="edge_source_ids">S_IAF_MEMBERS</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Official IAF network page</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e18" source="IAF" target="SGP">
+      <data key="edge_type">PARLIAMENTARY_ACCESS</data>
+      <data key="relation_label">Dutch caucus historically initiated by SGP/CU figures and currently chaired by SGP MP</data>
+      <data key="evidence_status">reported/self_disclosed</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">5</data>
+      <data key="date_range">2013-current</data>
+      <data key="edge_source_ids">S_JONET_IIACF_2013;S_IAF_MEMBERS</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Party/network edge</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e19" source="IAF" target="CU">
+      <data key="edge_type">PARLIAMENTARY_ACCESS</data>
+      <data key="relation_label">CU/SGP parliamentary pro-Israel club became part of IIACF network</data>
+      <data key="evidence_status">reported_public_action</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">4</data>
+      <data key="date_range">2013</data>
+      <data key="edge_source_ids">S_JONET_IIACF_2013</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Historical edge</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e20" source="KEES_VD_STAAIJ" target="IAF">
+      <data key="edge_type">NETWORK_INITIATION</data>
+      <data key="relation_label">SGP leader named in 2013 caucus creation context</data>
+      <data key="evidence_status">reported_public_action</data>
+      <data key="edge_confidence">medium_high</data>
+      <data key="weight">4</data>
+      <data key="date_range">2013</data>
+      <data key="edge_source_ids">S_JONET_IIACF_2013</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Historical role</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e21" source="JOEL_VOORDEWIND" target="IAF">
+      <data key="edge_type">NETWORK_INITIATION</data>
+      <data key="relation_label">CU politician named in 2013 caucus creation context</data>
+      <data key="evidence_status">reported_public_action</data>
+      <data key="edge_confidence">medium_high</data>
+      <data key="weight">4</data>
+      <data key="date_range">2013</data>
+      <data key="edge_source_ids">S_JONET_IIACF_2013</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Historical role</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e22" source="IAF_EU" target="SGP">
+      <data key="edge_type">EVENT_PARTICIPATION</data>
+      <data key="relation_label">SGP reports participation in IAF Europe Policy Summit</data>
+      <data key="evidence_status">self_disclosed</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">4</data>
+      <data key="date_range">2025</data>
+      <data key="edge_source_ids">S_SGP_IAF_2025</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Party source</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e23" source="SGP" target="IAF_EU">
+      <data key="edge_type">FRAMING_ALIGNMENT</data>
+      <data key="relation_label">SGP summit article frames international law criticism as misused against Israel</data>
+      <data key="evidence_status">self_disclosed</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">4</data>
+      <data key="date_range">2025</data>
+      <data key="edge_source_ids">S_SGP_IAF_2025</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Frame alignment</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e24" source="IAF" target="BERTJAN_RUISSEN">
+      <data key="edge_type">PARLIAMENTARY_ACCESS</data>
+      <data key="relation_label">IAF member nations page lists European Union caucus chair as Bert-Jan Ruissen</data>
+      <data key="evidence_status">self_disclosed</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">4</data>
+      <data key="date_range">current</data>
+      <data key="edge_source_ids">S_IAF_MEMBERS</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Official IAF page</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e25" source="TRF" target="IAF">
+      <data key="edge_type">COUNTER_DOCUMENTATION</data>
+      <data key="relation_label">TRF investigates IAF as Christian parliamentary mobilization network</data>
+      <data key="evidence_status">source_claim</data>
+      <data key="edge_confidence">medium</data>
+      <data key="weight">3</data>
+      <data key="date_range">2025</data>
+      <data key="edge_source_ids">S_RIGHTSFORUM_IAF_2025</data>
+      <data key="risk_flags">contested_claim</data>
+      <data key="notes">Advocacy source</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e26" source="TRF" target="SGP">
+      <data key="edge_type">COUNTER_DOCUMENTATION</data>
+      <data key="relation_label">TRF maps SGP links to IAF/christian-zionist networks</data>
+      <data key="evidence_status">source_claim</data>
+      <data key="edge_confidence">medium</data>
+      <data key="weight">3</data>
+      <data key="date_range">2025</data>
+      <data key="edge_source_ids">S_RIGHTSFORUM_IAF_2025</data>
+      <data key="risk_flags">contested_claim</data>
+      <data key="notes">Advocacy source</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e27" source="TRF" target="CU">
+      <data key="edge_type">COUNTER_DOCUMENTATION</data>
+      <data key="relation_label">TRF maps CU links to IAF/christian-zionist networks</data>
+      <data key="evidence_status">source_claim</data>
+      <data key="edge_confidence">medium</data>
+      <data key="weight">3</data>
+      <data key="date_range">2025</data>
+      <data key="edge_source_ids">S_RIGHTSFORUM_IAF_2025</data>
+      <data key="risk_flags">contested_claim</data>
+      <data key="notes">Advocacy source</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e28" source="ELNET" target="CHRIS_STOFFER">
+      <data key="edge_type">SPONSORED_TRAVEL</data>
+      <data key="relation_label">Stoffer registered 2024 Israel solidarity visit paid by ELNET</data>
+      <data key="evidence_status">official_record</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">5</data>
+      <data key="date_range">2024</data>
+      <data key="edge_source_ids">S_TK_STOFFER_REIZEN</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Official travel disclosure</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e29" source="CVI" target="CHRIS_STOFFER">
+      <data key="edge_type">SPONSORED_OR_PARTLY_SPONSORED_TRAVEL</data>
+      <data key="relation_label">Stoffer registered 2022 Israel visit on invitation of Christenen voor Israël, partly paid by SGP foundation/fractie</data>
+      <data key="evidence_status">official_record</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">4</data>
+      <data key="date_range">2022</data>
+      <data key="edge_source_ids">S_TK_STOFFER_REIZEN</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Official travel disclosure</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e30" source="NGO_MONITOR" target="DUTCH_GOV">
+      <data key="edge_type">POLICY_INPUT</data>
+      <data key="relation_label">NGO Monitor report triggered request for ministerial response</data>
+      <data key="evidence_status">official_record</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">4</data>
+      <data key="date_range">2025</data>
+      <data key="edge_source_ids">S_RIJK_NGOMONITOR_2025</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Government workflow edge</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e31" source="NGO_MONITOR" target="OXFAM_NOVIB">
+      <data key="edge_type">TERROR_LINK_ALLEGATION</data>
+      <data key="relation_label">NGO Monitor allegations about Oxfam/DRA were referenced in Dutch parliamentary questions</data>
+      <data key="evidence_status">contested_claim</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">5</data>
+      <data key="date_range">2026</data>
+      <data key="edge_source_ids">S_TK_NGOMONITOR_2026_VVD;S_TK_NGOMONITOR_2026_MARKUSZOWER</data>
+      <data key="risk_flags">defamation_sensitive</data>
+      <data key="notes">Cabinet stated no information supports the allegations</data>
+      <data key="epistemic_role">allegation_entering_policy_media_discourse</data>
+      <data key="adjudication_status">unadjudicated_contested</data>
+    </edge>
+    <edge id="e32" source="TELEGRAAF" target="OXFAM_NOVIB">
+      <data key="edge_type">MEDIA_AMPLIFICATION</data>
+      <data key="relation_label">De Telegraaf report was referenced in parliamentary questions about NGO Monitor/Oxfam allegations</data>
+      <data key="evidence_status">official_record_reference</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">5</data>
+      <data key="date_range">2026</data>
+      <data key="edge_source_ids">S_TK_NGOMONITOR_2026_VVD;S_TK_NGOMONITOR_2026_MARKUSZOWER</data>
+      <data key="risk_flags">defamation_sensitive</data>
+      <data key="notes">Use as media-to-parliament pathway, not as truth of allegation</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e33" source="VVD" target="DUTCH_GOV">
+      <data key="edge_type">PARLIAMENTARY_QUESTION</data>
+      <data key="relation_label">VVD MP Rajkowski asked questions based on De Telegraaf/NGO Monitor Oxfam framing</data>
+      <data key="evidence_status">official_record</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">4</data>
+      <data key="date_range">2026</data>
+      <data key="edge_source_ids">S_TK_NGOMONITOR_2026_VVD</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Official Q&amp;A</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e34" source="QUEENY_RAJKOWSKI" target="DUTCH_GOV">
+      <data key="edge_type">PARLIAMENTARY_QUESTION</data>
+      <data key="relation_label">VVD MP Rajkowski asked questions based on De Telegraaf/NGO Monitor Oxfam framing</data>
+      <data key="evidence_status">official_record</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">3</data>
+      <data key="date_range">2026</data>
+      <data key="edge_source_ids">S_TK_NGOMONITOR_2026_VVD;S_TK_RAJKOWSKI_DETAIL_2026</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Official Q&amp;A</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e35" source="GIDI_MARKUSZOWER" target="DUTCH_GOV">
+      <data key="edge_type">PARLIAMENTARY_QUESTION</data>
+      <data key="relation_label">Questions to ministers over NGO Monitor/Oxfam claims</data>
+      <data key="evidence_status">official_record</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">4</data>
+      <data key="date_range">2026</data>
+      <data key="edge_source_ids">S_TK_NGOMONITOR_2026_MARKUSZOWER</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Official Q&amp;A</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e36" source="ANNELOTTE_LAMMERS" target="DUTCH_GOV">
+      <data key="edge_type">PARLIAMENTARY_QUESTION</data>
+      <data key="relation_label">Questions to ministers over NGO Monitor/Oxfam claims</data>
+      <data key="evidence_status">official_record</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">4</data>
+      <data key="date_range">2026</data>
+      <data key="edge_source_ids">S_TK_NGOMONITOR_2026_MARKUSZOWER</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Official Q&amp;A</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e37" source="DUTCH_GOV" target="NGO_MONITOR">
+      <data key="edge_type">OFFICIAL_NONCONFIRMATION</data>
+      <data key="relation_label">Cabinet stated it had no information supporting the NGO Monitor allegations; modeled as official non-confirmation, not independent falsification</data>
+      <data key="evidence_status">official_position</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">5</data>
+      <data key="date_range">2026</data>
+      <data key="edge_source_ids">S_TK_NGOMONITOR_2026_VVD;S_TK_NGOMONITOR_2026_MARKUSZOWER</data>
+      <data key="risk_flags">institutional_self_interest;not_independent_verification;contested_claim</data>
+      <data key="notes">Do not use as truth anchor. Use only as evidence that the government publicly did not confirm the allegations.</data>
+      <data key="epistemic_role">institutional_position_not_truth_anchor</data>
+      <data key="adjudication_status">unadjudicated_contested</data>
+    </edge>
+    <edge id="e38" source="DUTCH_GOV" target="DRA">
+      <data key="edge_type">DUE_DILIGENCE_ASSERTION</data>
+      <data key="relation_label">Cabinet asserted due-diligence processes were in order for named organizations</data>
+      <data key="evidence_status">official_position</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">5</data>
+      <data key="date_range">2026</data>
+      <data key="edge_source_ids">S_TK_NGOMONITOR_2026_VVD</data>
+      <data key="risk_flags">institutional_self_interest;not_independent_verification</data>
+      <data key="notes">Official donor/government assertion. Treat as institutional self-report, not external audit.</data>
+      <data key="epistemic_role">institutional_position_not_truth_anchor</data>
+      <data key="adjudication_status">unadjudicated</data>
+    </edge>
+    <edge id="e39" source="TRF" target="TELEGRAAF">
+      <data key="edge_type">COUNTER_DOCUMENTATION</data>
+      <data key="relation_label">TRF accuses De Telegraaf of NGO Monitor amplification in UAWC/Al-Mezan context</data>
+      <data key="evidence_status">source_claim</data>
+      <data key="edge_confidence">medium</data>
+      <data key="weight">3</data>
+      <data key="date_range">2020</data>
+      <data key="edge_source_ids">S_RIGHTSFORUM_TELEGRAAF_2020</data>
+      <data key="risk_flags">contested_claim</data>
+      <data key="notes">Advocacy source</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e40" source="NGO_MONITOR" target="TELEGRAAF">
+      <data key="edge_type">FRAME_SUPPLY</data>
+      <data key="relation_label">TRF/NRC-linked dispute: NGO Monitor material used in De Telegraaf NGO-related articles</data>
+      <data key="evidence_status">contested_reported_pattern</data>
+      <data key="edge_confidence">medium_high</data>
+      <data key="weight">4</data>
+      <data key="date_range">2020-2026</data>
+      <data key="edge_source_ids">S_RIGHTSFORUM_TELEGRAAF_2020;S_NGOMONITOR_RESPONSE_NRC_2026;S_TK_NGOMONITOR_2026_VVD</data>
+      <data key="risk_flags">contested_claim</data>
+      <data key="notes">NGO Monitor disputes NRC framing but confirms substantive conflict</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e41" source="NGO_MONITOR" target="NRC">
+      <data key="edge_type">COUNTER_ATTACK_RESPONSE</data>
+      <data key="relation_label">NGO Monitor published rebuttal to NRC article about NGO Monitor and De Telegraaf</data>
+      <data key="evidence_status">verified_public_action</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">3</data>
+      <data key="date_range">2026</data>
+      <data key="edge_source_ids">S_NGOMONITOR_RESPONSE_NRC_2026</data>
+      <data key="risk_flags">contested_claim</data>
+      <data key="notes">Adversarial source</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e42" source="HU" target="CIDI">
+      <data key="edge_type">EVENT_COLLABORATION</data>
+      <data key="relation_label">HU organized Holocaust/antisemitism lectures with CIDI</data>
+      <data key="evidence_status">reported_public_action</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">5</data>
+      <data key="date_range">2024</data>
+      <data key="edge_source_ids">S_NOS_HU_CIDI_2024;S_HOP_HU_POLITICI_2024</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Education collaboration case</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e43" source="NEW_NEIGHBOURS" target="HU">
+      <data key="edge_type">CRITICISM_PRESSURE</data>
+      <data key="relation_label">New Neighbours objected to CIDI involvement in HU lectures</data>
+      <data key="evidence_status">reported_public_action</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">4</data>
+      <data key="date_range">2024</data>
+      <data key="edge_source_ids">S_NOS_HU_CIDI_2024;S_HOP_HU_POLITICI_2024</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Reported objection</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e44" source="CIDI" target="HU">
+      <data key="edge_type">SAFETY_INTIMIDATION_FRAME</data>
+      <data key="relation_label">CIDI characterized postponement as intimidation/threats paying off</data>
+      <data key="evidence_status">reported_public_statement</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">4</data>
+      <data key="date_range">2024</data>
+      <data key="edge_source_ids">S_HOP_HU_POLITICI_2024;S_NOS_HU_CIDI_2024</data>
+      <data key="risk_flags">safety_frame</data>
+      <data key="notes">Reported statement</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e45" source="TELEGRAAF" target="HU">
+      <data key="edge_type">MEDIA_AMPLIFICATION</data>
+      <data key="relation_label">De Telegraaf first reported HU postponement, triggering broader media/political reaction</data>
+      <data key="evidence_status">reported_media_sequence</data>
+      <data key="edge_confidence">medium_high</data>
+      <data key="weight">4</data>
+      <data key="date_range">2024</data>
+      <data key="edge_source_ids">S_HOP_HU_POLITICI_2024;S_NOS_HU_CIDI_2024</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Sequence reported by HOP/NOS</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e46" source="GEENSTIJL" target="HU">
+      <data key="edge_type">MEDIA_AMPLIFICATION</data>
+      <data key="relation_label">GeenStijl took over HU/CIDI story with hostile comment according to HU local reporting</data>
+      <data key="evidence_status">reported_media_sequence</data>
+      <data key="edge_confidence">medium</data>
+      <data key="weight">3</data>
+      <data key="date_range">2024</data>
+      <data key="edge_source_ids">S_HOP_HU_POLITICI_2024</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Use with source-specific confirmation</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e47" source="DILAN_YESILGOZ" target="HU">
+      <data key="edge_type">PUBLIC_PRESSURE</data>
+      <data key="relation_label">Publicly criticized HU postponement as a disgrace/gotspe</data>
+      <data key="evidence_status">reported_public_statement</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">4</data>
+      <data key="date_range">2024</data>
+      <data key="edge_source_ids">S_HOP_HU_POLITICI_2024</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Reported X statement</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e48" source="CAROLINE_VDP" target="HU">
+      <data key="edge_type">PARLIAMENTARY_PRESSURE</data>
+      <data key="relation_label">Wanted to ask cabinet oral questions over HU decision</data>
+      <data key="evidence_status">reported_public_action</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">4</data>
+      <data key="date_range">2024</data>
+      <data key="edge_source_ids">S_HOP_HU_POLITICI_2024</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Reported parliamentary pressure</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e49" source="PIETER_OMTZIGT" target="HU">
+      <data key="edge_type">PUBLIC_PRESSURE</data>
+      <data key="relation_label">Questioned HU&#x27;s moral compass over postponement</data>
+      <data key="evidence_status">reported_public_statement</data>
+      <data key="edge_confidence">medium_high</data>
+      <data key="weight">3</data>
+      <data key="date_range">2024</data>
+      <data key="edge_source_ids">S_HOP_HU_POLITICI_2024</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Reported X statement</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e50" source="NAOMI_MESTRUM" target="NOS">
+      <data key="edge_type">MEDIA_STATEMENT</data>
+      <data key="relation_label">CIDI director provided statement to NOS in HU case</data>
+      <data key="evidence_status">reported_public_statement</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">3</data>
+      <data key="date_range">2024</data>
+      <data key="edge_source_ids">S_NOS_HU_CIDI_2024</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Spokesperson edge</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e51" source="CVI_MEDIA" target="WIERD_DUK">
+      <data key="edge_type">PLATFORMING</data>
+      <data key="relation_label">Christenen voor Israël hosted Wierd Duk on media bias around Israel/Gaza</data>
+      <data key="evidence_status">verified_public_content</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">4</data>
+      <data key="date_range">2024</data>
+      <data key="edge_source_ids">S_CVI_WIERD_DUK_2024</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Public media appearance</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e52" source="CVI" target="CVI_MEDIA">
+      <data key="edge_type">MEDIA_OWNERSHIP_OR_PLATFORM</data>
+      <data key="relation_label">CVI operates/hosts its media/podcast content</data>
+      <data key="evidence_status">self_disclosed</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">4</data>
+      <data key="date_range">2024</data>
+      <data key="edge_source_ids">S_CVI_WIERD_DUK_2024</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Advocacy media platform</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e53" source="WIERD_DUK" target="TELEGRAAF">
+      <data key="edge_type">MEDIA_AFFILIATION</data>
+      <data key="relation_label">Wierd Duk is Telegraaf reporter/commentator in platform descriptions</data>
+      <data key="evidence_status">reported_public_profile</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">4</data>
+      <data key="date_range">2024-2026</data>
+      <data key="edge_source_ids">S_CVI_WIERD_DUK_2024;S_NVD_WIERD_DUK_2026</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Affiliation edge</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e54" source="WIERD_DUK" target="NIEUWS_VD_DAG">
+      <data key="edge_type">COMMENTARY</data>
+      <data key="relation_label">Commentary on &#x27;Palestinisering&#x27; of media/education discourse</data>
+      <data key="evidence_status">verified_public_content</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">3</data>
+      <data key="date_range">2026</data>
+      <data key="edge_source_ids">S_NVD_WIERD_DUK_2026</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Content frame edge</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e55" source="LEON_DE_WINTER" target="NPO_RADIO1">
+      <data key="edge_type">COMMENTARY</data>
+      <data key="relation_label">Appeared in NPO Radio 1 podcast on Israel-Hamas conflict</data>
+      <data key="evidence_status">verified_public_content</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">3</data>
+      <data key="date_range">2023</data>
+      <data key="edge_source_ids">S_NPORADIO1_LEON_2023</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Public commentary</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e56" source="LEON_DE_WINTER" target="EW">
+      <data key="edge_type">MEDIA_AFFILIATION</data>
+      <data key="relation_label">EW author profile for Leon de Winter</data>
+      <data key="evidence_status">publisher_profile</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">4</data>
+      <data key="date_range">current</data>
+      <data key="edge_source_ids">S_EW_LEON</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Media affiliation</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e57" source="ESTHER_VOET" target="NIW">
+      <data key="edge_type">EDITORIAL_ROLE</data>
+      <data key="relation_label">NIW head editor profile; former CIDI director/adjunct-director noted</data>
+      <data key="evidence_status">publisher_profile</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">5</data>
+      <data key="date_range">current</data>
+      <data key="edge_source_ids">S_NIW_REDACTIE</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Bridge node</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e58" source="ESTHER_VOET" target="CIDI">
+      <data key="edge_type">FORMER_ROLE</data>
+      <data key="relation_label">NIW profile states Voet was connected to CIDI as adjunct-director/director</data>
+      <data key="evidence_status">publisher_profile</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">5</data>
+      <data key="date_range">historical</data>
+      <data key="edge_source_ids">S_NIW_REDACTIE</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Historical role</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e59" source="BART_VAN_DIJK" target="CIDI">
+      <data key="edge_type">EMPLOYEE_ROLE</data>
+      <data key="relation_label">NIW article identifies Bart van Dijk as CIDI employee</data>
+      <data key="evidence_status">publisher_article</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">4</data>
+      <data key="date_range">2025</data>
+      <data key="edge_source_ids">S_NIW_CIDI_DATA_2025</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Data bridge</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e60" source="NIW" target="CIDI">
+      <data key="edge_type">DATA_USE</data>
+      <data key="relation_label">NIW article uses CIDI voting-data on Tweede Kamer since 7 Oct 2023</data>
+      <data key="evidence_status">publisher_article</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">4</data>
+      <data key="date_range">2025</data>
+      <data key="edge_source_ids">S_NIW_CIDI_DATA_2025</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Media-data bridge</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e61" source="BART_SCHUT" target="NIW">
+      <data key="edge_type">MEDIA_AFFILIATION</data>
+      <data key="relation_label">Bart Schut writes for/with NIW in public articles</data>
+      <data key="evidence_status">publisher_article</data>
+      <data key="edge_confidence">medium_high</data>
+      <data key="weight">3</data>
+      <data key="date_range">2017-2025</data>
+      <data key="edge_source_ids">S_CVANDAAG_BARTSCHUT_2017;S_NIW_CIDI_DATA_2025</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Journalist/opiniemaker</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e62" source="BART_SCHUT" target="ANTIZIONISM_FRAME">
+      <data key="edge_type">FRAMING</data>
+      <data key="relation_label">Public commentary distinguishing antisemitism, antizionism and Israel criticism</data>
+      <data key="evidence_status">reported_content</data>
+      <data key="edge_confidence">medium_high</data>
+      <data key="weight">3</data>
+      <data key="date_range">2017</data>
+      <data key="edge_source_ids">S_CVANDAAG_BARTSCHUT_2017</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Frame node can be materialized if needed</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e63" source="FRITS_HUFFNAGEL" target="CASTRO">
+      <data key="edge_type">FOUNDER_ROLE</data>
+      <data key="relation_label">Castro profile lists Huffnagel as founder and network/political communications actor</data>
+      <data key="evidence_status">self_disclosed</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">5</data>
+      <data key="date_range">2019-current</data>
+      <data key="edge_source_ids">S_CASTRO_OVER;S_CASTRO_SITE</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Lobby/communications node</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e64" source="STEFAN_DE_BRUIJN" target="CASTRO">
+      <data key="edge_type">FOUNDER_ROLE</data>
+      <data key="relation_label">Castro profile lists De Bruijn as founder/managing partner</data>
+      <data key="evidence_status">self_disclosed</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">5</data>
+      <data key="date_range">2019-current</data>
+      <data key="edge_source_ids">S_CASTRO_OVER</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Lobby/communications node</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e65" source="CASTRO" target="DUTCH_MEDIA_CLUSTER">
+      <data key="edge_type">NETWORK_CAPABILITY</data>
+      <data key="relation_label">Castro self-describes communications, lobby, monitoring, media/government network</data>
+      <data key="evidence_status">self_disclosed</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">3</data>
+      <data key="date_range">current</data>
+      <data key="edge_source_ids">S_CASTRO_SITE;S_CASTRO_OVER</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Capability edge, not Israel-specific without extra source</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e66" source="CASTRO" target="DUTCH_POLITICAL_CLUSTER">
+      <data key="edge_type">NETWORK_CAPABILITY</data>
+      <data key="relation_label">Castro self-describes political and media network and lobby services</data>
+      <data key="evidence_status">self_disclosed</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">3</data>
+      <data key="date_range">current</data>
+      <data key="edge_source_ids">S_CASTRO_SITE;S_CASTRO_OVER</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Capability edge, not Israel-specific without extra source</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e67" source="NOS" target="CIDI">
+      <data key="edge_type">REPORTING</data>
+      <data key="relation_label">NOS reports CIDI legal complaint and HU/CIDI case</data>
+      <data key="evidence_status">verified_public_reporting</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">2</data>
+      <data key="date_range">2023-2024</data>
+      <data key="edge_source_ids">S_NOS_CESTMOCRO_2023;S_NOS_HU_CIDI_2024</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Reporting node, not amplifier classification</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e68" source="JONET" target="LIKOED_NL">
+      <data key="edge_type">REPORTING</data>
+      <data key="relation_label">Jonet reports Likoed Nederland Noordhoff campaign</data>
+      <data key="evidence_status">verified_public_reporting</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">2</data>
+      <data key="date_range">2019</data>
+      <data key="edge_source_ids">S_JONET_NOORDHOFF_2019</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Community news reporting</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e69" source="JONET" target="IAF">
+      <data key="edge_type">REPORTING</data>
+      <data key="relation_label">Jonet reports CU/SGP pro-Israel parliamentary club linked to IIACF</data>
+      <data key="evidence_status">verified_public_reporting</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">2</data>
+      <data key="date_range">2013</data>
+      <data key="edge_source_ids">S_JONET_IIACF_2013</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Historical reporting</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e70" source="TRF" target="CIDI">
+      <data key="edge_type">COUNTER_DOCUMENTATION</data>
+      <data key="relation_label">TRF articles contest CIDI role in Israel-lobby/framing disputes</data>
+      <data key="evidence_status">source_claim</data>
+      <data key="edge_confidence">medium</data>
+      <data key="weight">3</data>
+      <data key="date_range">2017-2025</data>
+      <data key="edge_source_ids">S_RIGHTSFORUM_IAF_2025;S_RIGHTSFORUM_TELEGRAAF_2020</data>
+      <data key="risk_flags">contested_claim</data>
+      <data key="notes">Advocacy source</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e71" source="CIDI" target="TRF">
+      <data key="edge_type">CONFLICT_RELATION</data>
+      <data key="relation_label">CIDI/TRF recurrent adversarial framing relationship in public debate</data>
+      <data key="evidence_status">inference_from_public_sources</data>
+      <data key="edge_confidence">medium</data>
+      <data key="weight">2</data>
+      <data key="date_range">2017-2025</data>
+      <data key="edge_source_ids">S_ELSC_2021;S_RIGHTSFORUM_TELEGRAAF_2020</data>
+      <data key="risk_flags">inference</data>
+      <data key="notes">Use as conflict edge, not coordination claim</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e72" source="NGO_MONITOR" target="TRF">
+      <data key="edge_type">DOSSIER_TARGETING</data>
+      <data key="relation_label">NGO Monitor maintains page/profile on The Rights Forum</data>
+      <data key="evidence_status">verified_public_action</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">3</data>
+      <data key="date_range">current</data>
+      <data key="edge_source_ids">S_NGOMONITOR_RESPONSE_NRC_2026</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Use if source URL to TRF page added separately</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e73" source="DUTCH_GOV" target="OXFAM_NOVIB">
+      <data key="edge_type">CONFIDENCE_IN_PARTNER</data>
+      <data key="relation_label">Cabinet expressed confidence in partner neutrality/independence in the Oxfam/DRA case</data>
+      <data key="evidence_status">official_position</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">5</data>
+      <data key="date_range">2026</data>
+      <data key="edge_source_ids">S_TK_NGOMONITOR_2026_VVD;S_TK_NGOMONITOR_2026_MARKUSZOWER</data>
+      <data key="risk_flags">institutional_self_interest;not_independent_verification</data>
+      <data key="notes">Official confidence statement. Treat as policy position, not independent verification.</data>
+      <data key="epistemic_role">institutional_position_not_truth_anchor</data>
+      <data key="adjudication_status">unadjudicated</data>
+    </edge>
+    <edge id="e74" source="VVD" target="HU">
+      <data key="edge_type">PUBLIC_PRESSURE</data>
+      <data key="relation_label">VVD leader Yesilgöz criticized HU in public reaction</data>
+      <data key="evidence_status">reported_public_statement</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">3</data>
+      <data key="date_range">2024</data>
+      <data key="edge_source_ids">S_HOP_HU_POLITICI_2024</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Party-level edge via leader statement</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e75" source="BBB" target="HU">
+      <data key="edge_type">PARLIAMENTARY_PRESSURE</data>
+      <data key="relation_label">BBB leader Van der Plas wanted oral questions about HU decision</data>
+      <data key="evidence_status">reported_public_action</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">3</data>
+      <data key="date_range">2024</data>
+      <data key="edge_source_ids">S_HOP_HU_POLITICI_2024</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Party-level edge via leader statement</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e76" source="NSC" target="HU">
+      <data key="edge_type">PUBLIC_PRESSURE</data>
+      <data key="relation_label">NSC leader Omtzigt criticized HU decision</data>
+      <data key="evidence_status">reported_public_statement</data>
+      <data key="edge_confidence">medium_high</data>
+      <data key="weight">3</data>
+      <data key="date_range">2024</data>
+      <data key="edge_source_ids">S_HOP_HU_POLITICI_2024</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Party-level edge via leader statement</data>
+      <data key="epistemic_role">evidence_of_public_relation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e77" source="ELSC" target="SMEAR_CAMPAIGN">
+      <data key="edge_type">TACTIC_DOCUMENTATION</data>
+      <data key="relation_label">ELSC identifies smear campaigns as the most common suppression tactic in documented incidents</data>
+      <data key="evidence_status">source_claim</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">5</data>
+      <data key="date_range">2015-2020</data>
+      <data key="edge_source_ids">S_ELSC_2021;S_ELSC_PRESS_2021</data>
+      <data key="risk_flags">contested_claim</data>
+      <data key="notes">Tactic pattern, not per-actor adjudication</data>
+      <data key="epistemic_role">tactic_pattern_documentation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e78" source="ELSC" target="CHILLING_EFFECT">
+      <data key="edge_type">IMPACT_DOCUMENTATION</data>
+      <data key="relation_label">ELSC describes intimidation and self-censorship as longer-term effects of attacks on Palestine advocacy</data>
+      <data key="evidence_status">source_claim</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">5</data>
+      <data key="date_range">2015-2020</data>
+      <data key="edge_source_ids">S_ELSC_2021;S_ELSC_PRESS_2021</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Impact pattern</data>
+      <data key="epistemic_role">impact_pattern_documentation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e79" source="ELSC" target="DEFUNDING_PRESSURE_FRAME">
+      <data key="edge_type">TACTIC_DOCUMENTATION</data>
+      <data key="relation_label">ELSC documents attempted defunding as a recurring tactic against Palestine-related NGOs</data>
+      <data key="evidence_status">source_claim</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">5</data>
+      <data key="date_range">2015-2020</data>
+      <data key="edge_source_ids">S_ELSC_2021;S_ELSC_PRESS_2021</data>
+      <data key="risk_flags">contested_claim</data>
+      <data key="notes">Tactic pattern</data>
+      <data key="epistemic_role">tactic_pattern_documentation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e80" source="ELSC" target="TERROR_LINK_FRAME">
+      <data key="edge_type">TACTIC_DOCUMENTATION</data>
+      <data key="relation_label">ELSC identifies unfounded support-to-terrorism allegations as a recurring smear mechanism</data>
+      <data key="evidence_status">source_claim</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">5</data>
+      <data key="date_range">2015-2020</data>
+      <data key="edge_source_ids">S_ELSC_2021;S_ELSC_PRESS_2021</data>
+      <data key="risk_flags">defamation_sensitive;contested_claim</data>
+      <data key="notes">Tactic pattern</data>
+      <data key="epistemic_role">tactic_pattern_documentation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e81" source="TRF" target="CHARACTER_ASSASSINATION">
+      <data key="edge_type">COUNTER_DOCUMENTATION</data>
+      <data key="relation_label">The Rights Forum frames character assassination as a standard weapon of the Israel lobby</data>
+      <data key="evidence_status">source_claim</data>
+      <data key="edge_confidence">medium_high</data>
+      <data key="weight">4</data>
+      <data key="date_range">2019</data>
+      <data key="edge_source_ids">S_TRF_CHARACTER_2019</data>
+      <data key="risk_flags">contested_claim</data>
+      <data key="notes">Advocacy source; useful as rhetoric taxonomy, not neutral adjudication</data>
+      <data key="epistemic_role">counter_documentation_claim</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e82" source="CHARACTER_ASSASSINATION" target="JAN_TERVOORT">
+      <data key="edge_type">NAMED_CASE</data>
+      <data key="relation_label">TRF names Jan Tervoort as a case/target in character-assassination discourse</data>
+      <data key="evidence_status">source_claim</data>
+      <data key="edge_confidence">medium</data>
+      <data key="weight">3</data>
+      <data key="date_range">2019</data>
+      <data key="edge_source_ids">S_TRF_CHARACTER_2019</data>
+      <data key="risk_flags">defamation_sensitive;contested_claim</data>
+      <data key="notes">Case attribution comes from TRF</data>
+      <data key="epistemic_role">case_claim</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e83" source="CHARACTER_ASSASSINATION" target="TRF">
+      <data key="edge_type">NAMED_CASE</data>
+      <data key="relation_label">TRF names itself as a target of character-assassination campaigns</data>
+      <data key="evidence_status">source_claim</data>
+      <data key="edge_confidence">medium</data>
+      <data key="weight">3</data>
+      <data key="date_range">2019</data>
+      <data key="edge_source_ids">S_TRF_CHARACTER_2019</data>
+      <data key="risk_flags">contested_claim</data>
+      <data key="notes">Self/counter-documentation source</data>
+      <data key="epistemic_role">case_claim</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e84" source="CIDI" target="MEDIA_VISIBILITY">
+      <data key="edge_type">MEDIA_PRESENCE_SELFREPORT</data>
+      <data key="relation_label">CIDI self-reports being mentioned in media on 172 days in 2024</data>
+      <data key="evidence_status">self_disclosed_metric</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">4</data>
+      <data key="date_range">2024</data>
+      <data key="edge_source_ids">S_CIDI_ACTIVITY_2024</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Presence metric; not evidence of media control</data>
+      <data key="epistemic_role">metric_self_report</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e85" source="CIDI" target="ANTIZIONISM_FRAME">
+      <data key="edge_type">FRAMING</data>
+      <data key="relation_label">CIDI public discourse links anti-Zionism/anti-Israel activism with antisemitism in some contexts</data>
+      <data key="evidence_status">source_claim</data>
+      <data key="edge_confidence">medium</data>
+      <data key="weight">3</data>
+      <data key="date_range">multi-year</data>
+      <data key="edge_source_ids">S_ELSC_2021;S_CIDI_CESTMOCRO_2023</data>
+      <data key="risk_flags">contested_claim</data>
+      <data key="notes">Use only as frame relation, not blanket claim</data>
+      <data key="epistemic_role">frame_attribution</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e86" source="NGO_MONITOR" target="AL_MEZAN">
+      <data key="edge_type">TERROR_LINK_ALLEGATION</data>
+      <data key="relation_label">NGO Monitor published allegations about Al Mezan ties to PFLP according to ELSC</data>
+      <data key="evidence_status">source_claim</data>
+      <data key="edge_confidence">medium_high</data>
+      <data key="weight">5</data>
+      <data key="date_range">2020</data>
+      <data key="edge_source_ids">S_ELSC_JOODS_TELEGRAAF_ALMEZAN</data>
+      <data key="risk_flags">defamation_sensitive;contested_claim</data>
+      <data key="notes">Allegation transmission; not validation</data>
+      <data key="epistemic_role">allegation_origin</data>
+      <data key="adjudication_status">unadjudicated_contested</data>
+    </edge>
+    <edge id="e87" source="NGO_MONITOR" target="JOODS_NL">
+      <data key="edge_type">FRAME_SUPPLY</data>
+      <data key="relation_label">ELSC states Joods.nl replicated NGO Monitor claims about Al Mezan</data>
+      <data key="evidence_status">source_claim</data>
+      <data key="edge_confidence">medium_high</data>
+      <data key="weight">4</data>
+      <data key="date_range">2020</data>
+      <data key="edge_source_ids">S_ELSC_JOODS_TELEGRAAF_ALMEZAN</data>
+      <data key="risk_flags">defamation_sensitive;contested_claim</data>
+      <data key="notes">Transmission claim based on ELSC</data>
+      <data key="epistemic_role">transmission_of_claim_not_validation</data>
+      <data key="adjudication_status">unadjudicated_contested</data>
+    </edge>
+    <edge id="e88" source="NGO_MONITOR" target="TELEGRAAF">
+      <data key="edge_type">FRAME_SUPPLY</data>
+      <data key="relation_label">ELSC states De Telegraaf replicated NGO Monitor claims about Al Mezan</data>
+      <data key="evidence_status">source_claim</data>
+      <data key="edge_confidence">medium_high</data>
+      <data key="weight">4</data>
+      <data key="date_range">2020</data>
+      <data key="edge_source_ids">S_ELSC_JOODS_TELEGRAAF_ALMEZAN</data>
+      <data key="risk_flags">defamation_sensitive;contested_claim</data>
+      <data key="notes">Transmission claim based on ELSC</data>
+      <data key="epistemic_role">transmission_of_claim_not_validation</data>
+      <data key="adjudication_status">unadjudicated_contested</data>
+    </edge>
+    <edge id="e89" source="JOODS_NL" target="AL_MEZAN">
+      <data key="edge_type">MEDIA_AMPLIFICATION</data>
+      <data key="relation_label">ELSC states Joods.nl published articles replicating NGO Monitor claims about Al Mezan</data>
+      <data key="evidence_status">source_claim</data>
+      <data key="edge_confidence">medium_high</data>
+      <data key="weight">4</data>
+      <data key="date_range">2020</data>
+      <data key="edge_source_ids">S_ELSC_JOODS_TELEGRAAF_ALMEZAN</data>
+      <data key="risk_flags">defamation_sensitive;contested_claim</data>
+      <data key="notes">Media amplification claim</data>
+      <data key="epistemic_role">transmission_of_claim_not_validation</data>
+      <data key="adjudication_status">unadjudicated_contested</data>
+    </edge>
+    <edge id="e90" source="TELEGRAAF" target="AL_MEZAN">
+      <data key="edge_type">MEDIA_AMPLIFICATION</data>
+      <data key="relation_label">ELSC states De Telegraaf published articles replicating NGO Monitor claims about Al Mezan</data>
+      <data key="evidence_status">source_claim</data>
+      <data key="edge_confidence">medium_high</data>
+      <data key="weight">4</data>
+      <data key="date_range">2020</data>
+      <data key="edge_source_ids">S_ELSC_JOODS_TELEGRAAF_ALMEZAN</data>
+      <data key="risk_flags">defamation_sensitive;contested_claim</data>
+      <data key="notes">Media amplification claim</data>
+      <data key="epistemic_role">transmission_of_claim_not_validation</data>
+      <data key="adjudication_status">unadjudicated_contested</data>
+    </edge>
+    <edge id="e91" source="PVV" target="DUTCH_GOV">
+      <data key="edge_type">PARLIAMENTARY_QUESTION</data>
+      <data key="relation_label">ELSC states PVV submitted parliamentary questions repeating claims about Al Mezan</data>
+      <data key="evidence_status">source_claim</data>
+      <data key="edge_confidence">medium_high</data>
+      <data key="weight">4</data>
+      <data key="date_range">2020</data>
+      <data key="edge_source_ids">S_ELSC_JOODS_TELEGRAAF_ALMEZAN</data>
+      <data key="risk_flags">defamation_sensitive;contested_claim</data>
+      <data key="notes">Requires official question record for hard-edge upgrade</data>
+      <data key="epistemic_role">transmission_of_claim_not_validation</data>
+      <data key="adjudication_status">unadjudicated_contested</data>
+    </edge>
+    <edge id="e92" source="CIDI" target="PVV">
+      <data key="edge_type">PUBLICATION_OF_PARLIAMENTARY_QUESTIONS</data>
+      <data key="relation_label">ELSC states CIDI publicised PVV questions citing De Telegraaf and NGO Monitor</data>
+      <data key="evidence_status">source_claim</data>
+      <data key="edge_confidence">medium</data>
+      <data key="weight">3</data>
+      <data key="date_range">2020</data>
+      <data key="edge_source_ids">S_ELSC_JOODS_TELEGRAAF_ALMEZAN</data>
+      <data key="risk_flags">defamation_sensitive;contested_claim</data>
+      <data key="notes">Requires CIDI article archive for hard-edge upgrade</data>
+      <data key="epistemic_role">transmission_of_claim_not_validation</data>
+      <data key="adjudication_status">unadjudicated_contested</data>
+    </edge>
+    <edge id="e93" source="NGO_MONITOR" target="UAWC">
+      <data key="edge_type">TERROR_LINK_ALLEGATION</data>
+      <data key="relation_label">TRF/ELSC-related sources describe NGO Monitor reporting used against UAWC funding</data>
+      <data key="evidence_status">source_claim</data>
+      <data key="edge_confidence">medium_high</data>
+      <data key="weight">5</data>
+      <data key="date_range">2020-2022</data>
+      <data key="edge_source_ids">S_RIGHTSFORUM_FREESPEECH_2021;S_ELSC_2021</data>
+      <data key="risk_flags">defamation_sensitive;contested_claim</data>
+      <data key="notes">Separate claim layer from any Dutch official investigation</data>
+      <data key="epistemic_role">allegation_origin</data>
+      <data key="adjudication_status">unadjudicated_contested</data>
+    </edge>
+    <edge id="e94" source="NGO_MONITOR" target="DEFUNDING_PRESSURE_FRAME">
+      <data key="edge_type">TACTIC_LINK</data>
+      <data key="relation_label">NGO Monitor dossiers are described by ELSC/TRF as inputs used in defunding pressure</data>
+      <data key="evidence_status">source_claim</data>
+      <data key="edge_confidence">medium_high</data>
+      <data key="weight">4</data>
+      <data key="date_range">2015-2022</data>
+      <data key="edge_source_ids">S_RIGHTSFORUM_FREESPEECH_2021;S_ELSC_2021</data>
+      <data key="risk_flags">defamation_sensitive;contested_claim</data>
+      <data key="notes">Tactic linkage, not proof of each individual claim</data>
+      <data key="epistemic_role">pattern_inference_from_sources</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e95" source="DEFUNDING_PRESSURE_FRAME" target="DUTCH_DONORS">
+      <data key="edge_type">TARGETS_FINANCIAL_LEVERAGE</data>
+      <data key="relation_label">ELSC reports pressure on Dutch donors, often government-linked, to end funding for Palestinian organizations</data>
+      <data key="evidence_status">source_claim</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">5</data>
+      <data key="date_range">2015-2020</data>
+      <data key="edge_source_ids">S_ELSC_2021;S_ELSC_PRESS_2021</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Donor cluster is abstract</data>
+      <data key="epistemic_role">tactic_pattern_documentation</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e96" source="DUTCH_DONORS" target="PALESTINIAN_NGOS">
+      <data key="edge_type">FUNDING_LEVERAGE_RELATION</data>
+      <data key="relation_label">Palestinian/pro-Palestinian NGO funding becomes leverage point in defunding campaigns</data>
+      <data key="evidence_status">inference_from_documented_cases</data>
+      <data key="edge_confidence">medium_high</data>
+      <data key="weight">4</data>
+      <data key="date_range">2015-2022</data>
+      <data key="edge_source_ids">S_ELSC_2021;S_RIGHTSFORUM_FREESPEECH_2021</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Structural inference from documented cases</data>
+      <data key="epistemic_role">analytic_inference</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e97" source="MSA_ISRAEL" target="PALESTINIAN_NGOS">
+      <data key="edge_type">TRANSNATIONAL_DELEGITIMATION_CAMPAIGN</data>
+      <data key="relation_label">PCHR describes Israeli Ministry of Strategic Affairs campaigns against Palestinian civil society using BDS/terrorism association frames</data>
+      <data key="evidence_status">source_claim</data>
+      <data key="edge_confidence">medium</data>
+      <data key="weight">3</data>
+      <data key="date_range">2019-2020</data>
+      <data key="edge_source_ids">S_PCHR_MSA_2020</data>
+      <data key="risk_flags">contested_claim;not_netherlands_specific</data>
+      <data key="notes">Transnational context edge only</data>
+      <data key="epistemic_role">transnational_context_source_claim</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e98" source="MSA_ISRAEL" target="TERROR_LINK_FRAME">
+      <data key="edge_type">FRAME_SUPPLY_CONTEXT</data>
+      <data key="relation_label">MSA campaigns are described as using terrorism/BDS association frames against civil society</data>
+      <data key="evidence_status">source_claim</data>
+      <data key="edge_confidence">medium</data>
+      <data key="weight">3</data>
+      <data key="date_range">2019-2020</data>
+      <data key="edge_source_ids">S_PCHR_MSA_2020</data>
+      <data key="risk_flags">contested_claim;not_netherlands_specific</data>
+      <data key="notes">Contextual frame edge</data>
+      <data key="epistemic_role">transnational_context_source_claim</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e99" source="IAF_EU" target="NETHERLANDS_OFFICE">
+      <data key="edge_type">ORGANIZATIONAL_FOOTPRINT</data>
+      <data key="relation_label">IAF Europe states it opened a European office in the Netherlands to strengthen Israel Allies caucuses</data>
+      <data key="evidence_status">self_disclosed</data>
+      <data key="edge_confidence">high</data>
+      <data key="weight">4</data>
+      <data key="date_range">current</data>
+      <data key="edge_source_ids">S_IAF_EU_NL_OFFICE</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Organizational footprint; not direct lobbying edge by itself</data>
+      <data key="epistemic_role">organizational_self_disclosure</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e100" source="ECI" target="EU_POLITICAL_LEADERS">
+      <data key="edge_type">EU_ADVOCACY</data>
+      <data key="relation_label">LobbyFacts says ECI informs MEPs and other political leaders on antisemitism/anti-Zionism and EU-Israel relations</data>
+      <data key="evidence_status">registry_disclosure</data>
+      <data key="edge_confidence">medium_high</data>
+      <data key="weight">3</data>
+      <data key="date_range">current</data>
+      <data key="edge_source_ids">S_ECI_LOBBYFACTS</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">EU-level edge, not direct Netherlands edge</data>
+      <data key="epistemic_role">lobby_register_disclosure</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e101" source="DUTCH_FOREIGN_POLICY_CONTEXT" target="TWEEDE_KAMER">
+      <data key="edge_type">STRUCTURAL_CONTEXT</data>
+      <data key="relation_label">Malcontent argues Dutch Parliament has been decisive in maintaining a relatively pro-Israel Dutch policy line</data>
+      <data key="evidence_status">academic_claim</data>
+      <data key="edge_confidence">medium_high</data>
+      <data key="weight">3</data>
+      <data key="date_range">1949-2022</data>
+      <data key="edge_source_ids">S_MALCONTENT_2022</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Academic structural context; not a lobby edge</data>
+      <data key="epistemic_role">academic_context</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+    <edge id="e102" source="DUTCH_FOREIGN_POLICY_CONTEXT" target="DUTCH_GOV">
+      <data key="edge_type">STRUCTURAL_CONTEXT</data>
+      <data key="relation_label">Malcontent describes the Netherlands as one of Israel&#x27;s faithful European allies historically, with parliament as major determinant</data>
+      <data key="evidence_status">academic_claim</data>
+      <data key="edge_confidence">medium_high</data>
+      <data key="weight">3</data>
+      <data key="date_range">1949-2022</data>
+      <data key="edge_source_ids">S_MALCONTENT_2022</data>
+      <data key="risk_flags">none</data>
+      <data key="notes">Academic structural context</data>
+      <data key="epistemic_role">academic_context</data>
+      <data key="adjudication_status">not_adjudicated</data>
+    </edge>
+  </graph>
+</graphml>

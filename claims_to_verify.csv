@@ -1,0 +1,6 @@
+claim,status,reason,needed_evidence
+NRC noemt CIDI een Nederlandse pendant van AIPAC,not_added_as_hard_edge,NRC page was not accessible; only indirect references found,"NRC article text, archive copy, or independent quote with date/title"
+CIDI controleert of stuurt media,reframed,"Control claim requires newsroom-level evidence; current evidence supports media visibility, frame supply, amplification and complaints","editorial communications, direct copy-paste audit, source dependency analysis, repeated article-level provenance"
+ECI has direct Netherlands lobbying role,weak_edge_only,"ECI is verified as EU advocacy/lobby node, but direct Dutch edge requires stronger source","Dutch events, Dutch politicians, lobbying register contacts, parliamentary meetings"
+MSA directly coordinates Dutch actors,transnational_context_only,Sources support MSA anti-BDS/NGO campaign context; direct NL coordination needs case-specific evidence,"emails, official cooperation, shared campaign material, meeting records"
+Known Dutch public figures operate as lobby actors,case_by_case_only,Public commentary/platforming is not equivalent to lobbying,"formal role, coordinated campaign participation, paid work, meeting records, advocacy outputs"

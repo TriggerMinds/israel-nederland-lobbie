@@ -1,0 +1,8 @@
+funding_id,funder_id,recipient_id,program,amount_category,date_status,confidence,source_ids,notes
+FUND_DUTCH_PALESTINIAN_NGOS_NL,DUTCH_DONORS,PALESTINIAN_NGOS,Palestijnse NGO-subsidies,unknown,recurring,medium_high,S_ELSC_2021;S_ELSC_PRESS_2021,Abstract; specifieke bedragen/besluiten toevoegen
+FUND_OXFAM_NOVIB_NL_BuZa,DUTCH_GOV,OXFAM_NOVIB,Humanitaire hulp,unknown,recurring,high,S_TK_NGOMONITOR_2026_VVD,Nederlandse overheid financiert Oxfam Novib
+FUND_DRA_BuZa,DUTCH_GOV,DRA,Humanitaire hulp,unknown,recurring,high,S_TK_NGOMONITOR_2026_VVD,Nederlandse overheid financiert DRA
+FUND_UAWC_NL_UNTIL_2022,DUTCH_DONORS,UAWC,Ontwikkelingssamenwerking,unknown,ceased,medium_high,S_RIGHTSFORUM_FREESPEECH_2021;S_ELSC_2021,UAWC-defunding context
+FUND_ELNET_MISSION,ELNET,CHRIS_STOFFER,Stoffer Israël-bezoek 2024,travel_costs,2024,high,S_TK_STOFFER_REIZEN,Gesponsorde reis
+FUND_CVI_TRIP,CVI,CHRIS_STOFFER,Stoffer Israël-bezoek 2022,travel_costs_partial,2022,high,S_TK_STOFFER_REIZEN,Deels betaald door CVI; rest SGP
+FUND_SGP_TRIP,SGP,CHRIS_STOFFER,Stoffer Israël-bezoek 2022,travel_costs_partial,2022,high,S_TK_STOFFER_REIZEN,Deels betaald door SGP fractie/stichting

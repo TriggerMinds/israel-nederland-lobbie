@@ -1,0 +1,6 @@
+post_id,platform,author_actor_id,post_date,post_type,content_summary,url,claim_id,case_id,confidence,source_ids,notes
+SOC_CESTMOCRO_CIDI_COMPLAINT_2023,Instagram,CESTMOCRO,2023,content_that_triggered_complaint,CestMocro content that CIDI filed complaint about (aanzetten tot haat),,C11,CASE_CESTMOCRO_2023,medium,S_CIDI_CESTMOCRO_2023;S_NOS_CESTMOCRO_2023,Exacte posts niet gearchiveerd in deze dataset; CIDI stelde aangifte op
+SOC_YESILGOZ_HU_X_2024,X,DILAN_YESILGOZ,2024,public_criticism,Yesilgöz criticized HU postponement as 'gotspe' / disgrace,,C13,CASE_HU_CIDI_2024,high,S_HOP_HU_POLITICI_2024,Reported by HOP; exacte post-URL toevoegen uit archief
+SOC_OMTZIGT_HU_X_2024,X,PIETER_OMTZIGT,2024,public_criticism,Omtzigt questioned HU's moral compass over postponement,,C13,CASE_HU_CIDI_2024,medium_high,S_HOP_HU_POLITICI_2024,Reported by HOP; exacte post-URL toevoegen uit archief
+SOC_WIERD_DUK_NVD_2026,Web,WIERD_DUK,2026,commentary,Wierd Duk over 'Palestiniseren' van media en onderwijs,,C14,,high,S_NVD_WIERD_DUK_2026,Nieuws van de Dag platform
+SOC_CIDI_NOS_STATEMENT_2024,NOS,NAOMI_MESTRUM,2024,media_statement,CIDI director Naomi Mestrum provided statement to NOS about HU postponement,,C13,CASE_HU_CIDI_2024,high,S_NOS_HU_CIDI_2024,NOS interview/statement

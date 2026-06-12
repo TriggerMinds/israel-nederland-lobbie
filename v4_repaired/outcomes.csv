@@ -1,0 +1,9 @@
+outcome_id,case_id,outcome_type,description,date,impact_level,confidence,source_ids,notes
+OUTC_HU_POSTPONEMENT_2024,CASE_HU_CIDI_2024,event_cancellation_postponement,HU stelde Holocaust-collegereeks uit na controverses,2024,mid,high,S_NOS_HU_CIDI_2024;S_HOP_HU_POLITICI_2024,Of daadwerkelijk chilling effect is onderzocht
+OUTC_HU_POLITICAL_PRESSURE_2024,CASE_HU_CIDI_2024,parliamentary_pressure,"Meerdere partijen (VVD, BBB, NSC) oefenden publieke druk uit op HU",2024,mid,high,S_HOP_HU_POLITICI_2024,"Yesilgöz, Van der Plas, Omtzigt"
+OUTC_NGO_CABINET_NONCONFIRM_2026,CASE_NGO_OXFAM_2026,official_nonconfirmation,Kabinet stelde geen informatie te hebben die NGO Monitor-aantijgingen ondersteunt,2026,high,high,S_TK_NGOMONITOR_2026_VVD;S_TK_NGOMONITOR_2026_MARKUSZOWER,Institutioneel niet bevestigd
+OUTC_NGO_DUEDILIGENCE_2026,CASE_NGO_OXFAM_2026,institutional_assertion,Kabinet stelde due-diligence processen op orde,2026,mid,high,S_TK_NGOMONITOR_2026_VVD,DRA/Oxfam
+OUTC_SCHOOLBOOK_CAMPAIGN_2015,CASE_SCHOOLBOOK_2015,campaign_publication,Likoed publiceerde kritiek op ThiemeMeulenhoff schoolboek,2015,low,high,S_LIKOED_THIEME_2015,
+OUTC_SCHOOLBOOK_CAMPAIGN_2019,CASE_SCHOOLBOOK_2019,campaign_publication,Likoed campagne tegen Noordhoff schoolboek,2019,low,high,S_JONET_NOORDHOFF_2019,
+OUTC_IAF_CAUCUS_2013,CASE_IAF_CAUCUS_2013,network_formation,Oprichting parlementaire pro-Israël club onder IIACF/IAF,2013,high,high,S_JONET_IIACF_2013,
+OUTC_IAF_EU_OFFICE_NL,CASE_IAF_EU_OFFICE,organizational_footprint,IAF Europe opende Europees kantoor in Nederland,current,mid,high,S_IAF_EU_NL_OFFICE,

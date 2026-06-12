@@ -1,0 +1,11 @@
+# Archives
+v4.zip
+*.zip
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
