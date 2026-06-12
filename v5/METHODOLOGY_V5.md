@@ -1,111 +1,113 @@
-# v5 — claim-level provenance graph
+# v5 — capture-aware influence provenance graph
 
-## Overzicht
+## Epistemische basis
 
-v5 is een multi-layer directed graph die inzet, transmissie en institutionele impact
-van pro-Israël advocacy in Nederland modelleert. Het netwerk bestaat uit 166 nodes
-en 118 edges over 12 laagtypen: actoren, claims, artikelen, parlementaire items,
-events, reizen, financiering, juridische acties, outcomes, cases, bronnen en edges.
+Deze dataset gebruikt geen institutionele bevestiging als primaire waarheidsstandaard.
+Bewijswaarde wordt opgebouwd uit observeerbare sporen, temporele volgorde, tekstuele
+overeenkomst, netwerkpositie, herhaling over cases en onafhankelijke triangulatie.
+Ontkenningen of non-confirmations door betrokken actoren worden gemodelleerd als
+institutionele posities met mogelijk eigenbelang, niet als sluitende weerlegging.
 
-Het datamodel scheidt entity type (actor, claim, artikel, etc.) van het domein (lobby,
-media, politiek, juridisch, financieel), zodat je per analysevraag de relevante laag
-kunt isoleren of combineren.
+## Bewijsniveaus
 
-## Niveaus
+| niveau | betekenis | voorbeeld |
+|--------|-----------|-----------|
+| OBSERVED_TRACE | Publieke handeling bestaat aantoonbaar | Artikel, Kamervraag, reisregistratie, event |
+| SOURCE_CLAIM | Actor beweert iets | NGO Monitor-rapport, CIDI-persbericht |
+| REPLICATED_FRAME | Frame komt herkenbaar terug bij andere actor | Zelfde framing in media en politiek |
+| TEMPORAL_CHAIN | Publicatie A gaat aantoonbaar vooraf aan actie B | Artikel → Kamervraag → ministeriële reactie |
+| TEXTUAL_OVERLAP | Formuleringen overlappen meetbaar | Tussen bronrapport en media-artikel |
+| NETWORK_PROXIMITY | Actorrelaties, events, reizen, functies, platforms | Gedeeld podium, zelfde reis, personele overlap |
+| CONVERGENT_PATTERN | Meerdere onafhankelijke sporen wijzen dezelfde kant op | Herhaalde transmissie over verschillende cases |
+| INSTITUTIONAL_DENIAL | Betrokken instelling ontkent of bevestigt niet | Kabinet zegt "geen informatie" |
+| ADJUDICATED_FACT | Rechter, audit of onafhankelijk onderzoek stelt iets vast | Gerechtelijke uitspraak |
+| UNRESOLVED_BUT_STRUCTURED | Sterk patroon, geen definitieve adjudicatie | Meerdere cases, zelfde mechanisme, geen uitspraak |
 
-Het netwerk kent 5 analytische niveaus, van grof naar fijn:
+**INSTITUTIONAL_DENIAL is niet sterker dan CONVERGENT_PATTERN.**
+Het is een datapunt met eigenbelang, geen waarheidsvinding.
 
-1. **Netwerkstructuur** (`actors.csv`, `edges.csv`) — wie is verbonden met wie,
-   welke rollen en tiers, wat is de dichtheid en centraliteit van hubs als CIDI, IAF,
-   SGP, Telegraaf, NGO Monitor.
+## Drie te scheiden lagen
 
-2. **Transmissieketens** (`cases.csv`, `article_claim_links.csv`,
-   `parliamentary_claim_links.csv`) — welke claim reist via welke media-actoren naar
-   welke parlementaire vragen, ministeriële reacties of beleidsuitkomsten.
+| laag | vraag | bewijsstandaard |
+|------|-------|----------------|
+| Trace | Bestaat het spoor? | Publiek observeerbaar (artikel, KV, reis, post) |
+| Transmission | Reist dezelfde claim door meerdere lagen? | Timing + herhaling + bronketen |
+| Intent/coördinatie | Is er bewuste aansturing? | Hogere drempel: communicatie, gedeeld event, personele link, timingpatroon |
 
-3. **Temporele patronen** (`timeline_events.csv`) — timing van publicaties,
-   Kamervragen, events en outcomes per case. Zichtbaar: publicatie → mediagolf →
-   politieke reactie → outcome.
+Voor transmissie heb je geen bekentenis nodig.
+Voor coördinatie heb je zwaardere indicatoren nodig.
+Voor impact kijk je naar gevolgen, niet naar wat betrokkenen zeggen dat hun intentie was.
 
-4. **Sociale en financiële laag** (`social_posts.csv`, `event_participants.csv`,
-   `funding.csv`, `travel.csv`) — podiumgebruik, netwerkevenementen, gesponsorde
-   reizen, personele draaideuren.
+## Capture-aware analyse
 
-5. **Tekstuele laag** (`copy_overlap.csv`) — tekstoverlap tussen bronrapporten,
-   media-artikelen en Kamervragen. Te vullen met difflib of alignment tools.
+invloed ≠ bewezen intentie
+invloed = herhaalbare transmissie + toegang + versterking + institutioneel gevolg
 
-## Tabelstructuur (19 tabellen)
+Intentie is een dimensie. Niet de enige. Een actor kan invloed uitoefenen zonder
+dat je een e-mail, bekentenis of formeel contract hebt. Als dezelfde claim via
+dezelfde bronketen telkens leidt tot media-aandacht, Kamervragen, subsidievragen
+of reputatieschade, dan is dat een relevant machtsmechanisme.
 
-| Tabel | Nodes/Edges | Inhoud |
-|-------|-------------|--------|
-| actors.csv | 81 nodes | Organisaties, personen, media, partijen met type en tier |
-| articles.csv | 23 nodes | Artikelen, rapporten, podcasts met publisher en datum |
-| claims.csv | 15 nodes | Retorische strategieën, frames, aantijgingen met type en status |
-| parliamentary_items.csv | 11 nodes | Kamervragen, moties, reisregistraties met actor en datum |
-| events.csv | 7 nodes | Panels, lezingen, conferenties, podcasts |
-| travel.csv | 2 nodes | Israël-reizen met reiziger, organizer en jaar |
-| funding.csv | 7 nodes | Subsidies, donaties, reisbekostiging |
-| legal_actions.csv | 2 nodes | Aangiftes, klachten, sommaties |
-| outcomes.csv | 8 nodes | Outcome events (annulering, Kamervraag, beleidseffect) |
-| cases.csv | 10 nodes | Casusdefinities met claim-herkomst, transmissie en outcome |
-| edges.csv | 118 edges | Alle relaties tussen nodes uit alle lagen |
-| sources.csv | 38 nodes | Bronregister met URLs |
-| article_claim_links.csv | 14 edges | Koppelt artikelen aan claims |
-| parliamentary_claim_links.csv | 8 edges | Koppelt Kamervragen aan claims |
-| timeline_events.csv | 97 events | Chronologische gebeurtenissen per case |
-| copy_overlap.csv | — | Structuur voor tekstoverlapmeting |
-| social_posts.csv | 5 posts | Publieke uitingen (X, Instagram, media-statements) |
-| event_participants.csv | 12 deelnemers | Wie deed mee aan welk event |
-| organization_people_roles.csv | 10 relaties | Personele verbanden (founder, editor, employee, oud-medewerker) |
+## Assessment-velden per case
 
-## Analysevolgorde
+Elke case in cases.csv heeft deze capture-aware beoordeling:
 
-1. Begin bij `cases.csv`: elke case is een claim-transmissie-impact keten.
-2. Traceer via `article_claim_links.csv` en `parliamentary_claim_links.csv`
-   welke media en politieke actoren de claim droegen.
-3. Gebruik `timeline_events.csv` voor de volgorde: wie publiceerde wanneer,
-   wie reageerde wanneer, wat was de uitkomst.
-4. Voeg `organization_people_roles.csv` toe om draaideurconstructie zichtbaar
-   te maken — welke personen zitten in zowel media als advocacy organen.
-5. `social_posts.csv` + `event_participants.csv` geven de informele
-   netwerklaag: wie deelt een podium, wie reist samen, wie versterkt wie.
+| veld | waarden | betekenis |
+|------|---------|-----------|
+| pattern_strength | low/medium/high | Mate van patroonherhaling over cases |
+| transmission_strength | low/medium/high | Hoeveel schakels in de transmissieketen zijn gedocumenteerd |
+| impact_strength | low/medium/high | Zichtbare gevolgen (Kamervragen, annulering, beleidseffect) |
+| capture_risk | low/medium/high | Mate waarin instituties eigenbelang hebben bij uitkomst |
+| independent_verification_level | low/medium/high | Onafhankelijke verificatie (rechter, audit, reproduceerbaar dossier) |
+| institutional_self_interest | low/medium/high | Belangen van betrokken overheids-/institutionele actoren |
 
-## Tier-classificatie voor actoren
+Vergelijkbaar voor claims in claims.csv: pattern_strength, transmission_strength,
+capture_risk, independent_verification_level.
 
-| Tier | Type | Voorbeelden |
-|------|------|-------------|
-| T0 | Kernhubs — formele lobby/advocacy rol | CIDI, IAF, SGP, NGO Monitor |
-| T1 | Structurele brokers — herhaalde verbinding lobby-media-politiek | CVI, ELNET, TRF, Telegraaf, ELSC |
-| T2 | Institutionele transmitters — Kamervragen, moties, reizen | Dilan Yesilgöz, Chris Stoffer, PVV-Kamerleden |
-| T3 | Media amplifiers — publicatie of framing | GeenStijl, Wierd Duk, Leon de Winter |
-| T4 | Episodische amplifiers — losse publieke interventie | Koningin Máxima |
-| T5 | Context nodes — verwijzingen en clusters | DUTCH_MEDIA_CLUSTER |
+## Wat wél en niet bewezen wordt
 
-## Roltypologie per actor
+| claimtype | nodig bewijs |
+|-----------|--------------|
+| "X publiceerde Y" | Publicatie |
+| "X citeerde Y" | Tekst / bronverwijzing |
+| "X nam frame over" | Inhoudelijke overeenkomst |
+| "X bracht claim politiek binnen" | Kamervraag / motie / debat |
+| "X veroorzaakte outcome" | Timing + plausibel mechanisme + outcome |
+| "X coördineerde met Y" | Zwaarder: communicatie, gedeeld event, campagne, personele link |
+| "X controleert Y" | Zeer zwaar: redactionele aansturing, financiering, instructies |
 
-| Rol | Betekenis | Voorbeeld |
-|-----|-----------|-----------|
-| ORIGINATOR | Produceert claim/frame | NGO Monitor, CIDI |
-| AMPLIFIER | Verspreidt claim/frame via media/publiek | Telegraaf, GeenStijl |
-| TRANSMITTER | Brengt claim naar politiek/institutie | VVD, PVV, BBB |
-| GATEKEEPER | Beslist over subsidie, event, publicatie | DUTCH_GOV |
-| PRESSURE_ACTOR | Zet publieke/juridische/politieke druk | CIDI, BBB |
-| TARGET | Wordt aangevallen of onder druk gezet | AL_MEZAN, UAWC, HU |
-| COUNTER_ACTOR | Documenteert, weerlegt, verzet zich | ELSC, TRF |
-| BROKER | Verbindt netwerken (persoonlijk) | Esther Voet (CIDI → NIW) |
-| FUNDER | Financiert actor/event/campagne | ELNET, CVI, DUTCH_GOV |
-| HOST | Organiseert event/panel/reis | HU, CVI, IAF |
+Frame-amplificatie, institutionele transmissie en drukmechanismen hebben lage,
+observeerbare drempels. Controle blijft een hoge drempel.
 
-## De vragen die de graaf beantwoordt
+## 19 tabellen
 
-1. **Wie produceert een claim?** → `claims.originator_actor_id` + `edges[source_type=claim]`
-2. **Wie versterkt de claim?** → `article_claim_links` + `edges[edge_type=MEDIA_AMPLIFICATION]`
-3. **Wie brengt hem institutioneel binnen?** → `parliamentary_claim_links` + `edges[edge_type=PARLIAMENTARY_QUESTION]`
-4. **Welke actoren hebben toegang tot besluitvorming?** → tier T0–T1 actoren met edges naar DUTCH_GOV of TWEEDE_KAMER
-5. **Welke impact volgt?** → `outcomes` + `edges[edge_type=RESULTED_IN]`
-6. **Wat is de timing?** → `timeline_events` gesorteerd op datum
+| Tabel | Rijen | Inhoud |
+|-------|-------|--------|
+| actors.csv | 81 | Actoren met type, tier, rol |
+| claims.csv | 15 | Claims met assessment-velden |
+| articles.csv | 23 | Media-artikelen, rapporten, podcasts |
+| parliamentary_items.csv | 11 | Kamervragen, moties, reisregistraties |
+| events.csv | 7 | Panels, lezingen, conferenties |
+| travel.csv | 2 | Israel-reizen met reiziger en organizer |
+| funding.csv | 7 | Subsidies, donaties, reisbekostiging |
+| legal_actions.csv | 2 | Aangiftes, klachten, sommaties |
+| outcomes.csv | 8 | Outcome events |
+| cases.csv | 10 | Cases met capture-aware assessment |
+| edges.csv | 118 | Alle relaties tussen nodes |
+| sources.csv | 38 | Bronregister |
+| article_claim_links.csv | 14 | Artikelen aan claims gekoppeld |
+| parliamentary_claim_links.csv | 8 | Kamervragen aan claims gekoppeld |
+| timeline_events.csv | 97 | Chronologische gebeurtenissen |
+| copy_overlap.csv | — | Tekstoverlap (te vullen) |
+| social_posts.csv | 5 | Publieke uitingen |
+| event_participants.csv | 12 | Wie deed mee aan welk event |
+| organization_people_roles.csv | 10 | Personele verbanden |
 
-## Dataformaat
+## 6 analysevragen
 
-Alle tabellen zijn UTF-8 CSV met `QUOTE_MINIMAL`. Datumformaat: YYYY of YYYY-MM-DD.
-Bronverwijzingen in `source_ids` kolommen zijn `;`-gescheiden ID's die verwijzen naar `sources.csv`.
+1. Wie produceert de claim? → claims.originator_actor_id
+2. Wie versterkt de claim? → article_claim_links + edges[MEDIA_AMPLIFICATION]
+3. Wie brengt hem politiek binnen? → parliamentary_claim_links + edges[PARLIAMENTARY_QUESTION]
+4. Welke actoren hebben toegang tot besluitvorming? → tier T0-T1 met edges naar DUTCH_GOV/TWEEDE_KAMER
+5. Welke impact volgt? → outcomes + edges[RESULTED_IN]
+6. Wat is de timing? → timeline_events
