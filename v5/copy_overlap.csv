@@ -1,1 +1,8 @@
 overlap_id,source_article_id,target_article_id,source_type,target_type,overlap_score,method,notes
+CO_claim_C3_0_1,ART_RIGHTSFORUM_FREESPEECH_2021,ART_TRF_CHARACTER_2019,article,article,,shared_claim,Both linked to claim C3; publisher TRF (2021) -> TRF (2019)
+CO_claim_C3_0_2,ART_RIGHTSFORUM_FREESPEECH_2021,ART_RIGHTSFORUM_TELEGRAAF_2020,article,article,,shared_claim,Both linked to claim C3; publisher TRF (2021) -> TRF (2020)
+CO_claim_C3_0_3,ART_RIGHTSFORUM_FREESPEECH_2021,ART_RIGHTSFORUM_IAF_2025,article,article,,shared_claim,Both linked to claim C3; publisher TRF (2021) -> TRF (2025)
+CO_claim_C3_1_2,ART_TRF_CHARACTER_2019,ART_RIGHTSFORUM_TELEGRAAF_2020,article,article,,shared_claim,Both linked to claim C3; publisher TRF (2019) -> TRF (2020)
+CO_claim_C3_1_3,ART_TRF_CHARACTER_2019,ART_RIGHTSFORUM_IAF_2025,article,article,,shared_claim,Both linked to claim C3; publisher TRF (2019) -> TRF (2025)
+CO_claim_C3_2_3,ART_RIGHTSFORUM_TELEGRAAF_2020,ART_RIGHTSFORUM_IAF_2025,article,article,,shared_claim,Both linked to claim C3; publisher TRF (2020) -> TRF (2025)
+CO_claim_C1_0_1,ART_ELSC_2021,ART_ELSC_PRESS_2021,article,article,,shared_claim,Both linked to claim C1; publisher ELSC (2021) -> ELSC (2021)
