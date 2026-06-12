@@ -1,0 +1,19 @@
+task_id,entity_id,edge_id,task_type,question,priority,status,next_action,source_hint,notes
+TASK_001,WECHSLER_FOUNDATION,,find_funding,Zoek filing/spoor voor relatie met NGO Monitor,P1,open,check foundation filings / NGO Monitor donor disclosures,NGO Monitor annual report,
+TASK_002,REPORT_ORG,,find_funding,Wat is REPORT/Religious Exceptionalism Project?,P1,open,zoek NGO Monitor filings naar REPORT,NGO Monitor donor disclosure,
+TASK_003,FELNET,,find_funding,Vind Friends of ELNET filings en bestuur,P1,open,zoek US foundation filings,ELNET impact report,
+TASK_004,STICHTING_ELNET_NEDERLAND,,find_source,Vind KvK-inschrijving en bestuur Stichting ELNET Nederland,P1,open,KvK online,KvK-handelsregister,Ook jaarrekening opvragen
+TASK_005,,RE_CIDI_NIW,find_source,"Documenteer CIDI->NIW data-levering: welke data, hoe vaak, wie is contact",P1,open,NIW-artikel + CIDI-bron,NIW-artikel,
+TASK_006,,RE_NGO_CIDI,find_source,Vind CIDI-publicatie die NGO Monitor citeert,P1,open,Doorzoek CIDI-publicaties,CIDI-website,
+TASK_007,,RE_NGO_JOODS,find_text_overlap,Vind Joods.nl-artikel dat NGO Monitor Al Mezan-claim repliceert,P1,open,Tekstvergelijking NGO Monitor rapport vs Joods.nl artikel,ELSC-rapport,
+TASK_008,,RE_TELEGRAAF_ALMEZAN,find_text_overlap,Vind Telegraaf-artikel over Al Mezan en vergelijk met NGO Monitor,P1,open,Archief Telegraaf 2020,ELSC-rapport,
+TASK_009,BREAKING_THE_SILENCE,,find_source,Documenteer SGP/CU-positie tav Breaking the Silence,P2,open,zoek Kamervragen/moties,TRF-rapport; IAF-positionering,
+TASK_010,,RE_NGO_MSA,find_source,Onderzoek NGO Monitor-directeur profiel voor MSA-link,P1,open,LinkedIn / NGO Monitor website / publicaties,,
+TASK_011,ISRAEL_MFA,,find_source,Beslis of Israel MFA aparte actor wordt of samenvalt met MSA_ISRAEL,P2,open,Vergelijk MFA vs MSA rol in NL-context,,
+TASK_012,NGO_MONITOR_CIDI_LINK,RE_NGO_CIDI,find_source,Verzamel alle CIDI-publicaties die NGO Monitor noemen,P1,open,CIDI-website doorzoeken op NGO Monitor,,
+TASK_013,OCEAN_STATE_JOB_LOT,,find_funding,Zoek Ocean State Job Lot Foundation filing voor NGO Monitor,P3,open,Foundation directory,,
+TASK_014,JEWISH_FEDERATIONS,,find_funding,Onderzoek JFNA-filings voor Nederlandse pro-Israël organisaties,P2,open,JFNA annual report,,
+TASK_015,DUTCH_DONORS,,find_source,"Breng Nederlandse donorclusters (BuZa, RVO, NGO-fondsen) in kaart",P1,open,RVO-subsidieregister; BuZa-begroting,ELSC-rapport,Al als actor in actors.csv
+TASK_016,,RE_CIDI_MEDIA_GENERAL,find_source,Verzamel CIDI-mediaoptredens 2024 obv eigen activiteitenoverzicht,P2,open,CIDI Activiteitenoverzicht 2024 PDF,S_CIDI_ACTIVITY_2024,
+TASK_017,,RE_TELEGRAAF_VVD,find_text_overlap,Meet tekstoverlap tussen Telegraaf NGO-artikel en VVD-Kamervragen,P1,open,Tekstvergelijking,Kamerstuk 2026D08316,
+TASK_018,,RE_TELEGRAAF_PVV,find_text_overlap,Meet tekstoverlap tussen Telegraaf NGO-artikel en PVV-Kamervragen,P1,open,Tekstvergelijking,Kamerstuk 2026D08317,

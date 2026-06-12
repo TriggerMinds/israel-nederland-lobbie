@@ -1,0 +1,13 @@
+flow_id,funder_id,recipient_id,intermediary_id,amount,currency,year,flow_type,direct_or_indirect,source_url,source_ids,confidence,capture_risk,notes
+FLOW_DUTCH_PALESTINIAN_NGOS,DUTCH_DONORS,PALESTINIAN_NGOS,,,,,development_aid,direct,,S_ELSC_2021;S_ELSC_PRESS_2021,medium_high,high,Abstract; specifieke bedragen/besluiten toevoegen
+FLOW_DUTCH_OXFAM,DUTCH_GOV,OXFAM_NOVIB,,,,2026,humanitarian_aid,direct,,S_TK_NGOMONITOR_2026_VVD,high,high,Al in funding.csv. Overheid is donor en beleidsverantwoordelijke.
+FLOW_DUTCH_DRA,DUTCH_GOV,DRA,,,,2026,humanitarian_aid,direct,,S_TK_NGOMONITOR_2026_VVD,high,high,Al in funding.csv.
+FLOW_ELNET_STOFFER_2024,ELNET,CHRIS_STOFFER,,,,2024,travel_sponsorship,direct,,S_TK_STOFFER_REIZEN,high,medium,Al in funding.csv.
+FLOW_CVI_STOFFER_2022,CVI,CHRIS_STOFFER,,,,2022,travel_sponsorship,direct,,S_TK_STOFFER_REIZEN,high,medium,Al in funding.csv.
+FLOW_SGP_STOFFER_2022,SGP,CHRIS_STOFFER,,,,2022,travel_sponsorship,direct,,S_TK_STOFFER_REIZEN,high,medium,Al in funding.csv.
+FLOW_NGO_MONITOR_WECHSLER,WECHSLER_FOUNDATION,NGO_MONITOR,,,USD,,foundation_grant,direct,,,low,medium,Lead: zoek foundation filing voor bedrag en jaar
+FLOW_NGO_MONITOR_BECKER,BECKER_TRUST,NGO_MONITOR,,,USD,,foundation_grant,direct,,,low,medium,Lead: zoek trust filing
+FLOW_FELNET_ELNET,FELNET,ELNET,,,USD,,funding_conduit,direct,,S_ELNET_IMPACT,medium,medium,Friends of ELNET is US-funding conduit voor ELNET Europe
+FLOW_ELNET_ELNET_FR,ELNET,ELNET_FRANCE,,,,,internal_funding,direct,,,low,low,Lead: ELNET interne structuur onduidelijk
+FLOW_ELNET_ELNET_NL,ELNET,STICHTING_ELNET_NEDERLAND,,,,,internal_funding,direct,,,low,low,Lead: Stichting ELNET Nederland jaarrekening nodig
+FLOW_UAWC_NL,DUTCH_DONORS,UAWC,,,,2022,development_aid_ceased,direct,,S_RIGHTSFORUM_FREESPEECH_2021;S_ELSC_2021,medium_high,high,Al in funding.csv. Defunding context.

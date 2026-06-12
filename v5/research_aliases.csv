@@ -1,0 +1,32 @@
+alias_id,primary_entity_id,alias,alias_type,language,confidence,source_ids,notes
+ALIAS_CIDI_FULL,CIDI,Centrum Informatie en Documentatie Israël,full_name,NL,high,,
+ALIAS_CIDI_EN,CIDI,Center for Information and Documentation Israel,full_name_en,EN,high,,
+ALIAS_IAF_EN,IAF,Israel Allies Foundation,full_name,EN,high,,
+ALIAS_IAF_IIACF,IAF,International Israel Allies Caucus Foundation,former_name,EN,high,S_JONET_IIACF_2013,Oude naam voor IAF
+ALIAS_ELNET_FULL,ELNET,European Leadership Network,full_name,EN,high,,
+ALIAS_NGO_MONITOR_FULL,NGO_MONITOR,NGO Monitor,full_name,EN,high,,
+ALIAS_NGO_MONITOR_HEB,NGO_MONITOR,המרכז לחקר ארגונים לא-ממשלתיים,name_hebrew,HE,high,,Hebrew: NGO Monitor
+ALIAS_TRF_FULL,TRF,The Rights Forum,full_name,NL,high,,
+ALIAS_TRF_EN,TRF,The Rights Forum,full_name_en,EN,high,,
+ALIAS_ELSC_FULL,ELSC,European Legal Support Center,full_name,EN,high,,
+ALIAS_CVI_FULL,CVI,Christenen voor Israël,full_name,NL,high,,
+ALIAS_CVI_EN,CVI,Christians for Israel,full_name_en,EN,high,,
+ALIAS_YESILGOZ_FULL,DILAN_YESILGOZ,Dilan Yesilgöz-Zegerius,full_name,NL,high,,
+ALIAS_VDP_FULL,CAROLINE_VDP,Caroline van der Plas,full_name,NL,high,,
+ALIAS_OMTZIGT_FULL,PIETER_OMTZIGT,Pieter Omtzigt,full_name,NL,high,,
+ALIAS_MARKUSZOWER_FULL,GIDI_MARKUSZOWER,Gidi Markuszower,full_name,NL,high,,
+ALIAS_RAJKOWSKI_FULL,QUEENY_RAJKOWSKI,Queeny Rajkowski,full_name,NL,high,,
+ALIAS_ELNET_IMPACT,ELNET,ELNET Mobilizes Impact,program_name,EN,high,S_ELNET_IMPACT,ELNET impact report title
+ALIAS_CASTRO_FULL,CASTRO,Castro Communicatie en Lobby,full_name,NL,high,S_CASTRO_SITE,
+ALIAS_HU_FULL,HU,Hogeschool Utrecht,full_name,NL,high,,
+ALIAS_THIEME_FULL,THIEMEMEULENHOFF,ThiemeMeulenhoff,full_name,NL,high,,
+ALIAS_EW_FULL,EW,Elsevier Weekblad,full_name,NL,high,,
+ALIAS_NIW_FULL,NIW,Nieuw Israëlietisch Weekblad,full_name,NL,high,,
+ALIAS_MSA_FULL,MSA_ISRAEL,Israeli Ministry of Strategic Affairs,full_name,EN,high,,
+ALIAS_MSA_HEB,MSA_ISRAEL,המשרד לעניינים אסטרטגיים,name_hebrew,HE,high,,Israeli Ministry of Strategic Affairs and Public Diplomacy
+ALIAS_ECI_FULL,ECI,European Coalition for Israel,full_name,EN,high,,
+ALIAS_FJN_FULL,FJN,Federatief Joods Nederland,full_name,NL,high,,
+ALIAS_NP_KOMITEE,NPK,Nederlands Palestina Komitee,full_name,NL,high,,
+ALIAS_DDS_FULL,DDS,De Dagelijkse Standaard,full_name,NL,high,,
+ALIAS_STOFFER_FULL,CHRIS_STOFFER,Chris Stoffer,full_name,NL,high,,
+ALIAS_VOET_FULL,ESTHER_VOET,Esther Voet,full_name,NL,high,,NIW-hoofdredacteur; oud-CIDI-directeur

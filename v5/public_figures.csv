@@ -1,0 +1,20 @@
+person_id,label,person_type,public_role,platforms,known_affiliations,related_claims,related_cases,role_guess,status,priority,source_ids,notes
+NAOMI_MESTRUM,Naomi Mestrum,DIRECTOR,CIDI-directeur; publieke woordvoerder,media;NOS;events,CIDI,C13;C4,CASE_HU_CIDI_2024,primary_spokesperson,confirmed_actor,P1,S_NOS_HU_CIDI_2024,Al in actors.csv als PUBLIC_FIGURE
+ESTHER_VOET,Esther Voet,EDITOR,NIW-hoofdredacteur; oud-CIDI-directeur,NIW;media,NIW;CIDI,,,media_bridge,confirmed_actor,P1,S_NIW_REDACTIE;S_NIW_CIDI_DATA_2025,Al in actors.csv. Cruciale brug tussen CIDI en NIW.
+BART_VAN_DIJK,Bart van Dijk,EMPLOYEE,CIDI-medewerker; levert data aan NIW,NIW,CIDI,,,data_bridge,confirmed_actor,P2,S_NIW_CIDI_DATA_2025,Al in actors.csv
+WIERD_DUK,Wierd Duk,JOURNALIST,Telegraaf-columnist; commentaar op media/Israël,Telegraaf;NVD;CVI_podcast,TELEGRAAF;CVI_MEDIA,C14,,opinion_amplifier,confirmed_actor,P2,S_CVI_WIERD_DUK_2024;S_NVD_WIERD_DUK_2026,Al in actors.csv
+LEON_DE_WINTER,Leon de Winter,JOURNALIST,Schrijver; columnist; opinieplatform,EW;NPO Radio 1;media,EW,,,opinion_amplifier,confirmed_actor,P2,S_EW_LEON;S_NPORADIO1_LEON_2023,Al in actors.csv
+BART_SCHUT,Bart Schut,OPINION_MAKER,Opiniemaker; publicist over antisemitisme,Cvandaag;NIW,NIW;CIDI_context,C15,,discourse_amplifier,confirmed_actor,P2,S_CVANDAAG_BARTSCHUT_2017;S_NIW_CIDI_DATA_2025,Al in actors.csv
+FRITS_HUFFNAGEL,Frits Huffnagel,LOBBYIST,Castro-medeoprichter; VVD-connectie,Castro;politiek_netwerk,CASTRO;VVD_context,,,lobby_network_node,confirmed_actor,P1,S_CASTRO_OVER;S_CASTRO_SITE,Al in actors.csv
+RONNY_NAFTANIEL,Ronny Naftaniel,FORMER_DIRECTOR,Oud-CIDI-directeur; historische rol,media;CIDI_historisch,CIDI,,,historical_bridge,confirmed_actor,P3,,Al in actors.csv
+CHRIS_STOFFER,Chris Stoffer,POLITICIAN,SGP-Kamerlid; IAF-caucus voorzitter,Tweede Kamer;IAF;ELNET;CVI,SGP;IAF;ELNET;CVI,,CASE_IAF_CAUCUS_2013,parliamentary_network_hub,confirmed_actor,P0,S_IAF_MEMBERS;S_TK_STOFFER_REIZEN,Al in actors.csv. Centrale knoop in IAF/ELNET/CVI-reisnetwerk.
+QUEENY_RAJKOWSKI,Queeny Rajkowski,POLITICIAN,VVD-Kamerlid; stelde vragen over NGO Monitor/Oxfam,Tweede Kamer,VVD,C8,CASE_NGO_OXFAM_2026,question_actor,confirmed_actor,P1,S_TK_NGOMONITOR_2026_VVD;S_TK_RAJKOWSKI_DETAIL_2026,Al in actors.csv
+GIDI_MARKUSZOWER,Gidi Markuszower,POLITICIAN,PVV-Kamerlid; stelde vragen over NGO Monitor/Oxfam,Tweede Kamer,PVV,C8;C9,CASE_NGO_OXFAM_2026;CASE_ALMEZAN_2020,question_actor,confirmed_actor,P1,S_TK_NGOMONITOR_2026_MARKUSZOWER,Al in actors.csv
+CAROLINE_VDP,Caroline van der Plas,POLITICIAN,BBB-leider; CestMocro-uitspraak; HU-kritiek,Tweede Kamer;media;X,BBB,C13;C11,CASE_HU_CIDI_2024;CASE_CESTMOCRO_BAN_2024,public_pressure_actor,confirmed_actor,P1,S_VILLAMEDIA_CESTMOCRO_2024;S_HOP_HU_POLITICI_2024,Al in actors.csv
+DILAN_YESILGOZ,Dilan Yesilgöz,POLITICIAN,VVD-leider; reageerde op HU-case,Tweede Kamer;media;X,VVD,C13,CASE_HU_CIDI_2024,public_pressure_actor,confirmed_actor,P1,S_HOP_HU_POLITICI_2024,Al in actors.csv
+PIETER_OMTZIGT,Pieter Omtzigt,POLITICIAN,NSC-leider; reageerde op HU-case,Tweede Kamer;media;X,NSC,C13,CASE_HU_CIDI_2024,public_pressure_actor,confirmed_actor,P2,S_HOP_HU_POLITICI_2024,Al in actors.csv
+QUEEN_MAXIMA,Koningin Máxima,ROYAL,Koninklijk; genoemd in NGO Monitor-context,publiek,,,CASE_NGO_OXFAM_2026,passive_reference,confirmed_actor,P4,S_TK_NGOMONITOR_2026_VVD,"Al in actors.csv. Alleen genoemd in Kamervragen, geen actieve rol."
+ANNELOTTE_LAMMERS,Annelotte Lammers,POLITICIAN,PVV-Kamerlid; mede-indiener NGO Monitor-Kamervragen,Tweede Kamer,PVV,C8,CASE_NGO_OXFAM_2026,question_actor,confirmed_actor,P2,S_TK_NGOMONITOR_2026_MARKUSZOWER,Al in actors.csv
+THIERRY_BAUDET,Thierry Baudet,POLITICIAN,FVD-leider; pro-Israël standpunten,Tweede Kamer;social_media,FVD,,,ideological_aligner,raw_lead,P3,,Niet in actors.csv. FVD mogelijk relevante partij.
+GIDEON_VAN_MEIJEREN,Gideon van Meijeren,POLITICIAN,FVD-Kamerlid,Tweede Kamer,FVD,,,ideological_aligner,raw_lead,P4,,
+ARJAN_VLIEGENTHART,Arjan Vliegenthart,DIRECTOR,Oud-directeur; NGO/TWijn,media,,,,context_knower,raw_lead,P4,,Lead: rol in NGO-wereld

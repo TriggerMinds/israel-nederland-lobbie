@@ -1,0 +1,12 @@
+donor_id,label,donor_type,country,linked_orgs,known_roles,source_hint,source_ids,status,priority,notes
+DUTCH_GOV,Nederlandse overheid (BuZa),GOVERNMENT,NL,OXFAM_NOVIB;DRA;UAWC;PALESTINIAN_NGOS,humanitarian_aid;development;ngo_subsidies,Rijksbegroting; Kamerstukken,S_TK_NGOMONITOR_2026_VVD,confirmed_actor,P0,Al in actors.csv als DUTCH_GOV. Grootste donor voor Palestijnse NGO's.
+WECHSLER_FOUNDATION,Wechsler Family Foundation,PRIVATE_FOUNDATION,US,NGO_MONITOR,ngo_monitor_funder,NGO Monitor filings / foundation directory,,raw_lead,P1,US-based; zoek 990 filings
+FELNET,Friends of ELNET,FRIENDS_ORG,US,ELNET;ELNET_FRANCE;STICHTING_ELNET_NEDERLAND,funding_conduit,ELNET impact report,S_ELNET_IMPACT,candidate_actor,P1,US funding conduit voor ELNET Europees netwerk
+ELNET,European Leadership Network / ELNET,TRANSNATIONAL_HUB,EU,CHRIS_STOFFER;ELNET_FRANCE;STICHTING_ELNET_NEDERLAND,travel_sponsor;policy_network,Reisregistraties TK,S_TK_STOFFER_REIZEN;S_ELNET_IMPACT,confirmed_actor,P0,Al in actors.csv. Sponsor van parlementaire reizen.
+CVI,Christenen voor Israël,RELIGIOUS_NETWORK,NL,CHRIS_STOFFER;CVI_MEDIA,travel_sponsor;media_platform,Reisregistraties TK,S_TK_STOFFER_REIZEN,confirmed_actor,P0,Al in actors.csv
+SGP,SGP (fractie/stichting),POLITICAL_FOUNDATION,NL,CHRIS_STOFFER;IAF;IAF_EU,travel_sponsor;parliamentary_network,Reisregistraties TK,S_TK_STOFFER_REIZEN;S_SGP_IAF_2025,confirmed_actor,P0,Al in actors.csv. Sponsor via fractie/stichting.
+DUTCH_DONORS,Nederlandse donoren / subsidiegevers (cluster),DONOR_CLUSTER,NL,UAWC;PALESTINIAN_NGOS,development_aid,ELSC-rapport,S_ELSC_2021;S_ELSC_PRESS_2021,confirmed_actor,P1,Al in actors.csv. Abstracte cluster.
+WILLIAM_DAVIDSON_FOUNDATION,William Davidson Foundation,PRIVATE_FOUNDATION,US,,historical_donor,Foundation filings,,raw_lead,P2,
+JEWISH_FEDERATIONS,Jewish Federations of North America,FEDERATION,US,,funder_network,JFNA jaarverslagen,,candidate_actor,P2,
+BECKER_TRUST,Newton and Rochelle Becker Charitable Trust,TRUST,US,NGO_MONITOR,ngo_monitor_funder,NGO Monitor filings,,raw_lead,P2,
+ISRAEL_MFA,Israel Ministry of Foreign Affairs,GOVERNMENT,IL,MSA_ISRAEL,state_funder;public_diplomacy,,,candidate_actor,P2,Complementeert MSA_ISRAEL in state-funded advocacy

@@ -1,0 +1,15 @@
+account_id,actor_id,platform,handle,url,account_type,confidence,source_ids,notes
+SOC_X_YESILGOZ,DILAN_YESILGOZ,X,@DilanYesilgoz,https://x.com/DilanYesilgoz,official,high,S_HOP_HU_POLITICI_2024,X-post over HU-case in 2024
+SOC_X_OMTZIGT,PIETER_OMTZIGT,X,@PieterOmtzigt,https://x.com/PieterOmtzigt,official,high,S_HOP_HU_POLITICI_2024,X-post over HU-case in 2024
+SOC_X_VDP,CAROLINE_VDP,X,@CarolineVdPlas,https://x.com/CarolineVdPlas,official,high,S_HOP_HU_POLITICI_2024,
+SOC_INSTA_CESTMOCRO,CESTMOCRO,Instagram,@cestmocro,,content_account,high,S_CIDI_CESTMOCRO_2023;S_NOS_CESTMOCRO_2023,Account waar CIDI aangifte tegen deed
+SOC_X_WIERDDUK,WIERD_DUK,X,@WierdDuk,https://x.com/WierdDuk,official,high,,
+SOC_X_LEONWINTER,LEON_DE_WINTER,X,@LeondeWinter,https://x.com/LeondeWinter,official,medium_high,,
+SOC_CIDI_WEBSITE,CIDI,web,cidi.nl,https://www.cidi.nl,official_website,high,,
+SOC_CIDI_X,CIDI,X,@CIDI_Israel,https://x.com/CIDI_Israel,official,high,,
+SOC_NGO_MONITOR_WEB,NGO_MONITOR,web,ngo-monitor.org,https://www.ngo-monitor.org,official_website,high,,
+SOC_IAF_WEB,IAF,web,israelallies.org,https://israelallies.org,official_website,high,,
+SOC_NIW_WEB,NIW,web,niw.nl,https://niw.nl,news_website,high,,
+SOC_JONET_WEB,JONET,web,jonet.nl,https://jonet.nl,news_website,high,,
+SOC_TELEGRAAF_WEB,TELEGRAAF,web,telegraaf.nl,https://www.telegraaf.nl,news_website,high,,
+SOC_CVI_WEB,CVI,web,christenenvoorisrael.nl,https://www.christenenvoorisrael.nl,advocacy_website,high,,

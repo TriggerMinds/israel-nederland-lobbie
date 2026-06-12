@@ -1,0 +1,4 @@
+funding_id,source_state,recipient_org,intermediary_org,program,amount,currency,year,mechanism,source_ids,confidence,notes
+STATE_ISRAEL_MSA_CAMPAIGN,IL,MSA_ISRAEL,,Public Diplomacy / Strategic Affairs,,,,government_budget,S_PCHR_MSA_2020,medium,Israëlische staatsfinanciering voor public diplomacy; EU/NL-doelen via MSA
+STATE_ISRAEL_MFA_PUBLIC_DIPLOMACY,IL,ISRAEL_MFA,,Public Diplomacy,,,,government_budget,,low,Lead: MFA-budget voor hasbara/public diplomacy in Europa
+STATE_NL_PALESTINIAN_AID,NL,PALESTINIAN_NGOS,,Humanitaire hulp / Ontwikkelingssamenwerking,,EUR,,government_budget,S_ELSC_2021;S_TK_NGOMONITOR_2026_VVD,high,NL-overheid financiert Palestijnse NGO's via BuZa/RVO; exacte bedragen toevoegen

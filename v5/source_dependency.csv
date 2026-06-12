@@ -1,0 +1,15 @@
+dependency_id,source_actor_id,dependent_actor_id,material_type,case_id,claim_id,article_id,parliamentary_item_id,dependency_type,confidence,source_ids,notes
+DEP_NGO_TELEGRAAF_OXFAM,NGO_MONITOR,TELEGRAAF,article,CASE_NGO_OXFAM_2026,C8,,,REPORT_USED_AS_SOURCE,high,S_TK_NGOMONITOR_2026_VVD,Telegraaf-artikel gebruikt NGO Monitor-rapport; bevestigd via Kamerstuk
+DEP_NGO_TELEGRAAF_ALMEZAN,NGO_MONITOR,TELEGRAAF,article,CASE_ALMEZAN_2020,C9,,,REPORT_USED_AS_SOURCE,medium_high,S_ELSC_JOODS_TELEGRAAF_ALMEZAN,ELSC stelt dat Telegraaf NGO Monitor-claims repliceert; per artikel verifiëren
+DEP_NGO_JOODS_ALMEZAN,NGO_MONITOR,JOODS_NL,article,CASE_ALMEZAN_2020,C9,,,REPORT_USED_AS_SOURCE,medium_high,S_ELSC_JOODS_TELEGRAAF_ALMEZAN,ELSC stelt dat Joods.nl NGO Monitor repliceert; per artikel verifiëren
+DEP_TELEGRAAF_VVD_KV,TELEGRAAF,VVD,parliamentary_question,CASE_NGO_OXFAM_2026,C8,,PQ_RAJKOWSKI_NGO_2026,MEDIA_TO_PARLIAMENT,high,S_TK_NGOMONITOR_2026_VVD,Rajkowski (VVD) baseert Kamervragen op Telegraaf-artikel + NGO Monitor
+DEP_TELEGRAAF_PVV_KV,TELEGRAAF,PVV,parliamentary_question,CASE_NGO_OXFAM_2026,C8,,PQ_MARKUSZOWER_NGO_2026,MEDIA_TO_PARLIAMENT,high,S_TK_NGOMONITOR_2026_MARKUSZOWER,Markuszower/Lammers (PVV) baseert Kamervragen op Telegraaf + NGO Monitor
+DEP_NGO_DIRECT_VVD_KV,NGO_MONITOR,VVD,parliamentary_question,CASE_NGO_OXFAM_2026,C8,,PQ_RAJKOWSKI_NGO_2026,LOBBY_TO_PARLIAMENT,high,S_TK_NGOMONITOR_2026_VVD,NGO Monitor-rapport direct als bron voor Kamervragen
+DEP_NGO_DIRECT_PVV_KV,NGO_MONITOR,PVV,parliamentary_question,CASE_NGO_OXFAM_2026,C8,,PQ_MARKUSZOWER_NGO_2026,LOBBY_TO_PARLIAMENT,high,S_TK_NGOMONITOR_2026_MARKUSZOWER,NGO Monitor-rapport als bron voor PVV-Kamervragen
+DEP_NGO_CIDI_FRAME,NGO_MONITOR,CIDI,public_statement,CASE_ALMEZAN_2020,C9,,,FRAME_REPLICATION,medium,S_ELSC_JOODS_TELEGRAAF_ALMEZAN,CIDI publiceert over PVV-Kamervragen die NGO Monitor claims gebruiken. Indirecte replicatie.
+DEP_LIKOED_JONET,LIKOED_NL,JONET,article,CASE_SCHOOLBOOK_2019,C12,ART_JONET_NOORDHOFF_2019,,UNCITED_REPLICATION,high,S_JONET_NOORDHOFF_2019,Jonet bericht over Likoed-campagne zonder Likoed als directe bron te vermelden
+DEP_CIDI_NIW_DATA,CIDI,NIW,article,,,ART_NIW_CIDI_DATA_2025,,DIRECT_CITATION,high,S_NIW_CIDI_DATA_2025,NIW-artikel gebruikt CIDI-data; CIDI-employee is auteur/bron
+DEP_CIDI_NOS_SAFETY,CIDI,NOS,article,CASE_HU_CIDI_2024,C13,ART_NOS_HU_CIDI_2024,,FRAME_REPLICATION,high,S_NOS_HU_CIDI_2024,CIDI-veiligheidsframe gerepliceerd in NOS-rapportage
+DEP_CVI_WIERDDUK,CVI_MEDIA,WIERD_DUK,podcast,,C14,ART_CVI_WIERD_DUK_2024,,FRAME_REPLICATION,high,S_CVI_WIERD_DUK_2024,CVI geeft podium aan Wierd Duk 'Palestinisering'-frame
+DEP_TRF_TELEGRAAF,TRF,TELEGRAAF,report,CASE_NGO_OXFAM_2026,C3,ART_RIGHTSFORUM_TELEGRAAF_2020,,COUNTER_DOCUMENTATION,high,S_RIGHTSFORUM_TELEGRAAF_2020,TRF documenteert Telegraaf als doorgeefluik van NGO Monitor
+DEP_ELSC_ALMEZAN_CHAIN,ELSC,JOODS_NL,report,CASE_ALMEZAN_2020,C9,ART_ELSC_2021,,WATCHDOG_TO_MEDIA,medium_high,S_ELSC_JOODS_TELEGRAAF_ALMEZAN,ELSC documenteert transmissieroute NGO Monitor -> Joods.nl -> PVV -> CIDI
